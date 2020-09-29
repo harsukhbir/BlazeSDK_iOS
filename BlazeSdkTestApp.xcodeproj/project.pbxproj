@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EB0128FBFEA56B0EC209D91 /* Pods_BlazeSdkTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4344AB8A3477615789F7619C /* Pods_BlazeSdkTestApp.framework */; };
+		210F02A624F3BB410029E5E5 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210F02A424F3BB410029E5E5 /* ListCell.swift */; };
+		210F02A724F3BB410029E5E5 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210F02A524F3BB410029E5E5 /* ListCell.xib */; };
+		211CEB2B24E11683009D0C50 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB2A24E11683009D0C50 /* HomeVC.swift */; };
+		211CEB2D24E129AA009D0C50 /* DeviceListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB2C24E129AA009D0C50 /* DeviceListVC.swift */; };
+		211CEB2F24E13E51009D0C50 /* HubAdditionVCStep1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB2E24E13E51009D0C50 /* HubAdditionVCStep1.swift */; };
+		211CEB3124E141F0009D0C50 /* HubAdditionVCStep2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB3024E141F0009D0C50 /* HubAdditionVCStep2.swift */; };
+		211CEB3324E14390009D0C50 /* HubAdditionalVCStep4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB3224E14390009D0C50 /* HubAdditionalVCStep4.swift */; };
+		211CEB3524E1456C009D0C50 /* HubListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB3424E1456C009D0C50 /* HubListVC.swift */; };
+		211CEB3724E17749009D0C50 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB3624E17749009D0C50 /* ProfileVC.swift */; };
+		211CEB3924E180C8009D0C50 /* TestAppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB3824E180C8009D0C50 /* TestAppUtility.swift */; };
+		211CEB4A24E29E2D009D0C50 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB4924E29E2D009D0C50 /* Constants.swift */; };
+		211CEB6B24E2D7E1009D0C50 /* ForgotPassWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CEB6A24E2D7E0009D0C50 /* ForgotPassWordVC.swift */; };
+		214901F924DD88A000DE5569 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214901F824DD88A000DE5569 /* LoginVC.swift */; };
+		214901FB24DD88B400DE5569 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214901FA24DD88B400DE5569 /* RegisterVC.swift */; };
+		214901FF24DD8DA400DE5569 /* SystemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214901FD24DD8DA400DE5569 /* SystemAlert.swift */; };
+		2149020024DD8DA400DE5569 /* Controller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214901FE24DD8DA400DE5569 /* Controller+Extension.swift */; };
+		215269D224EE54380028C0E1 /* ChangeAccessPointVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215269D124EE54380028C0E1 /* ChangeAccessPointVC.swift */; };
+		21528C3824EB96A80067390F /* PairDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21528C3724EB96A80067390F /* PairDeviceVC.swift */; };
+		21528C3A24EB97FB0067390F /* DeviceInternalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21528C3924EB97FB0067390F /* DeviceInternalVC.swift */; };
+		2163568D24D570F900A033F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163568C24D570F900A033F3 /* AppDelegate.swift */; };
+		2163568F24D570F900A033F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163568E24D570F900A033F3 /* SceneDelegate.swift */; };
+		2163569124D570F900A033F3 /* IntialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163569024D570F900A033F3 /* IntialVC.swift */; };
+		2163569424D570F900A033F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2163569224D570F900A033F3 /* Main.storyboard */; };
+		2163569624D570FA00A033F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2163569524D570FA00A033F3 /* Assets.xcassets */; };
+		2163569924D570FA00A033F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2163569724D570FA00A033F3 /* LaunchScreen.storyboard */; };
+		216C541C24E5099C003AFD5F /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C541B24E5099B003AFD5F /* LocationServices.swift */; };
+		216C542224E50C2A003AFD5F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216C542124E50C2A003AFD5F /* NetworkExtension.framework */; };
+		216C543324E54B33003AFD5F /* HubAdditionalVCStep3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C543224E54B33003AFD5F /* HubAdditionalVCStep3.swift */; };
+		216C543524E59C29003AFD5F /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C543424E59C29003AFD5F /* SettingsVC.swift */; };
+		216C543A24E65745003AFD5F /* HubScannedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C543924E65745003AFD5F /* HubScannedListVC.swift */; };
+		21732BF024E3D30E00296FCE /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21732BEF24E3D30E00296FCE /* ChangePasswordVC.swift */; };
+		C74A58AA25232B3C00AD77CB /* BlazeSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */; };
+		C74A58AB25232B3C00AD77CB /* BlazeSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C74A58AC25232B3C00AD77CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C74A58AB25232B3C00AD77CB /* BlazeSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		210F02A424F3BB410029E5E5 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		210F02A524F3BB410029E5E5 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		211CEB2A24E11683009D0C50 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		211CEB2C24E129AA009D0C50 /* DeviceListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListVC.swift; sourceTree = "<group>"; };
+		211CEB2E24E13E51009D0C50 /* HubAdditionVCStep1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubAdditionVCStep1.swift; sourceTree = "<group>"; };
+		211CEB3024E141F0009D0C50 /* HubAdditionVCStep2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubAdditionVCStep2.swift; sourceTree = "<group>"; };
+		211CEB3224E14390009D0C50 /* HubAdditionalVCStep4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubAdditionalVCStep4.swift; sourceTree = "<group>"; };
+		211CEB3424E1456C009D0C50 /* HubListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubListVC.swift; sourceTree = "<group>"; };
+		211CEB3624E17749009D0C50 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		211CEB3824E180C8009D0C50 /* TestAppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUtility.swift; sourceTree = "<group>"; };
+		211CEB4924E29E2D009D0C50 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		211CEB6A24E2D7E0009D0C50 /* ForgotPassWordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassWordVC.swift; sourceTree = "<group>"; };
+		214901F824DD88A000DE5569 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		214901FA24DD88B400DE5569 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		214901FD24DD8DA400DE5569 /* SystemAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAlert.swift; sourceTree = "<group>"; };
+		214901FE24DD8DA400DE5569 /* Controller+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Controller+Extension.swift"; sourceTree = "<group>"; };
+		215269D124EE54380028C0E1 /* ChangeAccessPointVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAccessPointVC.swift; sourceTree = "<group>"; };
+		21528C3724EB96A80067390F /* PairDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairDeviceVC.swift; sourceTree = "<group>"; };
+		21528C3924EB97FB0067390F /* DeviceInternalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInternalVC.swift; sourceTree = "<group>"; };
+		2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BlazeSdk.framework; sourceTree = "<group>"; };
+		2163568924D570F900A033F3 /* BlazeSdkTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlazeSdkTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2163568C24D570F900A033F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2163568E24D570F900A033F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2163569024D570F900A033F3 /* IntialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntialVC.swift; sourceTree = "<group>"; };
+		2163569324D570F900A033F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2163569524D570FA00A033F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2163569824D570FA00A033F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2163569A24D570FA00A033F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216C541B24E5099B003AFD5F /* LocationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
+		216C542024E50C29003AFD5F /* BlazeSdkTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlazeSdkTestApp.entitlements; sourceTree = "<group>"; };
+		216C542124E50C2A003AFD5F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		216C543224E54B33003AFD5F /* HubAdditionalVCStep3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubAdditionalVCStep3.swift; sourceTree = "<group>"; };
+		216C543424E59C29003AFD5F /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		216C543924E65745003AFD5F /* HubScannedListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubScannedListVC.swift; sourceTree = "<group>"; };
+		21732BEF24E3D30E00296FCE /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		4344AB8A3477615789F7619C /* Pods_BlazeSdkTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlazeSdkTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518596B5A5230EC8EF5E19D9 /* Pods-BlazeSdkTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlazeSdkTestApp.debug.xcconfig"; path = "Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		99266C86073F725C84703AB0 /* Pods-BlazeSdkTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlazeSdkTestApp.release.xcconfig"; path = "Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2163568624D570F900A033F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216C542224E50C2A003AFD5F /* NetworkExtension.framework in Frameworks */,
+				C74A58AA25232B3C00AD77CB /* BlazeSdk.framework in Frameworks */,
+				1EB0128FBFEA56B0EC209D91 /* Pods_BlazeSdkTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214901F524DD887800DE5569 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				210F02A424F3BB410029E5E5 /* ListCell.swift */,
+				210F02A524F3BB410029E5E5 /* ListCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		214901F624DD887800DE5569 /* Controll */ = {
+			isa = PBXGroup;
+			children = (
+				215269CF24EE509D0028C0E1 /* Devices */,
+				215269CE24EE509D0028C0E1 /* Hub */,
+				215269CD24EE509D0028C0E1 /* Registration */,
+				215269D024EE509D0028C0E1 /* Settings */,
+				211CEB2A24E11683009D0C50 /* HomeVC.swift */,
+			);
+			path = Controll;
+			sourceTree = "<group>";
+		};
+		214901F724DD887800DE5569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		214901FC24DD88E500DE5569 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				216C541B24E5099B003AFD5F /* LocationServices.swift */,
+				214901FE24DD8DA400DE5569 /* Controller+Extension.swift */,
+				214901FD24DD8DA400DE5569 /* SystemAlert.swift */,
+				211CEB3824E180C8009D0C50 /* TestAppUtility.swift */,
+				211CEB4924E29E2D009D0C50 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		215269CD24EE509D0028C0E1 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				214901F824DD88A000DE5569 /* LoginVC.swift */,
+				214901FA24DD88B400DE5569 /* RegisterVC.swift */,
+				211CEB6A24E2D7E0009D0C50 /* ForgotPassWordVC.swift */,
+				21732BEF24E3D30E00296FCE /* ChangePasswordVC.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		215269CE24EE509D0028C0E1 /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				216C543924E65745003AFD5F /* HubScannedListVC.swift */,
+				211CEB2E24E13E51009D0C50 /* HubAdditionVCStep1.swift */,
+				211CEB3024E141F0009D0C50 /* HubAdditionVCStep2.swift */,
+				216C543224E54B33003AFD5F /* HubAdditionalVCStep3.swift */,
+				211CEB3224E14390009D0C50 /* HubAdditionalVCStep4.swift */,
+				211CEB3424E1456C009D0C50 /* HubListVC.swift */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		215269CF24EE509D0028C0E1 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				211CEB2C24E129AA009D0C50 /* DeviceListVC.swift */,
+				21528C3924EB97FB0067390F /* DeviceInternalVC.swift */,
+				21528C3724EB96A80067390F /* PairDeviceVC.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		215269D024EE509D0028C0E1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				211CEB3624E17749009D0C50 /* ProfileVC.swift */,
+				216C543424E59C29003AFD5F /* SettingsVC.swift */,
+				215269D124EE54380028C0E1 /* ChangeAccessPointVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2163568024D570F900A033F3 = {
+			isa = PBXGroup;
+			children = (
+				2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */,
+				2163568B24D570F900A033F3 /* BlazeSdkTestApp */,
+				2163568A24D570F900A033F3 /* Products */,
+				216356D224D5743000A033F3 /* Frameworks */,
+				D5CF6D7BD09811E664E71E4F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2163568A24D570F900A033F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2163568924D570F900A033F3 /* BlazeSdkTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2163568B24D570F900A033F3 /* BlazeSdkTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				216C542024E50C29003AFD5F /* BlazeSdkTestApp.entitlements */,
+				214901FC24DD88E500DE5569 /* Utility */,
+				2163568C24D570F900A033F3 /* AppDelegate.swift */,
+				2163568E24D570F900A033F3 /* SceneDelegate.swift */,
+				214901F724DD887800DE5569 /* Model */,
+				214901F524DD887800DE5569 /* Views */,
+				214901F624DD887800DE5569 /* Controll */,
+				2163569024D570F900A033F3 /* IntialVC.swift */,
+				2163569224D570F900A033F3 /* Main.storyboard */,
+				2163569524D570FA00A033F3 /* Assets.xcassets */,
+				2163569724D570FA00A033F3 /* LaunchScreen.storyboard */,
+				2163569A24D570FA00A033F3 /* Info.plist */,
+			);
+			path = BlazeSdkTestApp;
+			sourceTree = "<group>";
+		};
+		216356D224D5743000A033F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216C542124E50C2A003AFD5F /* NetworkExtension.framework */,
+				4344AB8A3477615789F7619C /* Pods_BlazeSdkTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5CF6D7BD09811E664E71E4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				518596B5A5230EC8EF5E19D9 /* Pods-BlazeSdkTestApp.debug.xcconfig */,
+				99266C86073F725C84703AB0 /* Pods-BlazeSdkTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2163568824D570F900A033F3 /* BlazeSdkTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2163569D24D570FA00A033F3 /* Build configuration list for PBXNativeTarget "BlazeSdkTestApp" */;
+			buildPhases = (
+				DD28E2067BE60F293F5B3647 /* [CP] Check Pods Manifest.lock */,
+				2163568524D570F900A033F3 /* Sources */,
+				2163568624D570F900A033F3 /* Frameworks */,
+				2163568724D570F900A033F3 /* Resources */,
+				E4266B499D30FF9C761999BB /* [CP] Embed Pods Frameworks */,
+				C74A58AC25232B3C00AD77CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlazeSdkTestApp;
+			productName = BlazeSdkTest;
+			productReference = 2163568924D570F900A033F3 /* BlazeSdkTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2163568124D570F900A033F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Ram;
+				TargetAttributes = {
+					2163568824D570F900A033F3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2163568424D570F900A033F3 /* Build configuration list for PBXProject "BlazeSdkTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2163568024D570F900A033F3;
+			productRefGroup = 2163568A24D570F900A033F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2163568824D570F900A033F3 /* BlazeSdkTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2163568724D570F900A033F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2163569924D570FA00A033F3 /* LaunchScreen.storyboard in Resources */,
+				210F02A724F3BB410029E5E5 /* ListCell.xib in Resources */,
+				2163569624D570FA00A033F3 /* Assets.xcassets in Resources */,
+				2163569424D570F900A033F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD28E2067BE60F293F5B3647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlazeSdkTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4266B499D30FF9C761999BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2163568524D570F900A033F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214901F924DD88A000DE5569 /* LoginVC.swift in Sources */,
+				214901FB24DD88B400DE5569 /* RegisterVC.swift in Sources */,
+				211CEB3724E17749009D0C50 /* ProfileVC.swift in Sources */,
+				215269D224EE54380028C0E1 /* ChangeAccessPointVC.swift in Sources */,
+				21528C3824EB96A80067390F /* PairDeviceVC.swift in Sources */,
+				210F02A624F3BB410029E5E5 /* ListCell.swift in Sources */,
+				211CEB2F24E13E51009D0C50 /* HubAdditionVCStep1.swift in Sources */,
+				211CEB3124E141F0009D0C50 /* HubAdditionVCStep2.swift in Sources */,
+				216C543324E54B33003AFD5F /* HubAdditionalVCStep3.swift in Sources */,
+				211CEB2D24E129AA009D0C50 /* DeviceListVC.swift in Sources */,
+				216C543A24E65745003AFD5F /* HubScannedListVC.swift in Sources */,
+				211CEB3324E14390009D0C50 /* HubAdditionalVCStep4.swift in Sources */,
+				211CEB4A24E29E2D009D0C50 /* Constants.swift in Sources */,
+				211CEB3924E180C8009D0C50 /* TestAppUtility.swift in Sources */,
+				2163569124D570F900A033F3 /* IntialVC.swift in Sources */,
+				211CEB2B24E11683009D0C50 /* HomeVC.swift in Sources */,
+				211CEB3524E1456C009D0C50 /* HubListVC.swift in Sources */,
+				214901FF24DD8DA400DE5569 /* SystemAlert.swift in Sources */,
+				2149020024DD8DA400DE5569 /* Controller+Extension.swift in Sources */,
+				2163568D24D570F900A033F3 /* AppDelegate.swift in Sources */,
+				2163568F24D570F900A033F3 /* SceneDelegate.swift in Sources */,
+				211CEB6B24E2D7E1009D0C50 /* ForgotPassWordVC.swift in Sources */,
+				216C541C24E5099C003AFD5F /* LocationServices.swift in Sources */,
+				21732BF024E3D30E00296FCE /* ChangePasswordVC.swift in Sources */,
+				216C543524E59C29003AFD5F /* SettingsVC.swift in Sources */,
+				21528C3A24EB97FB0067390F /* DeviceInternalVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2163569224D570F900A033F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2163569324D570F900A033F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2163569724D570FA00A033F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2163569824D570FA00A033F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2163569B24D570FA00A033F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2163569C24D570FA00A033F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2163569E24D570FA00A033F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518596B5A5230EC8EF5E19D9 /* Pods-BlazeSdkTestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlazeSdkTestApp/BlazeSdkTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B9R3975WXE;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/BlazeSdk.framework\"",
+					"$(PROJECT_DIR)/BlazeSdkTest",
+					"$(PROJECT_DIR)/BlazeSdkTestApp",
+					"$(PROJECT_DIR)/BlazeSdk",
+					"$(PROJECT_DIR)/BlazeSdk/Generated-Frameworks/BlazeSdk-Debug-framework/Simulator",
+					"$(PROJECT_DIR)/BlazeSdk/Generated-Frameworks/BlazeSdk-Release-framework/Simulator",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BlazeSdkTestApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlazeAutomation.com.SDKTest1;
+				PRODUCT_NAME = BlazeSdkTestApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2163569F24D570FA00A033F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99266C86073F725C84703AB0 /* Pods-BlazeSdkTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlazeSdkTestApp/BlazeSdkTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B9R3975WXE;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/BlazeSdk.framework\"",
+					"$(PROJECT_DIR)/BlazeSdkTest",
+					"$(PROJECT_DIR)/BlazeSdkTestApp",
+					"$(PROJECT_DIR)/BlazeSdk",
+					"$(PROJECT_DIR)/BlazeSdk/Generated-Frameworks/BlazeSdk-Debug-framework/Simulator",
+					"$(PROJECT_DIR)/BlazeSdk/Generated-Frameworks/BlazeSdk-Release-framework/Simulator",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BlazeSdkTestApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlazeAutomation.com.SDKTest1;
+				PRODUCT_NAME = BlazeSdkTestApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2163568424D570F900A033F3 /* Build configuration list for PBXProject "BlazeSdkTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2163569B24D570FA00A033F3 /* Debug */,
+				2163569C24D570FA00A033F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2163569D24D570FA00A033F3 /* Build configuration list for PBXNativeTarget "BlazeSdkTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2163569E24D570FA00A033F3 /* Debug */,
+				2163569F24D570FA00A033F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2163568124D570F900A033F3 /* Project object */;
+}

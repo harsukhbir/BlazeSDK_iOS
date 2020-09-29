@@ -1,0 +1,11 @@
+framework module BlazeSdk {
+  umbrella header "BlazeSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module BlazeSdk.Swift {
+    header "BlazeSdk-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+framework module Pods_BlazeSdkTestApp {
+  umbrella header "Pods-BlazeSdkTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
