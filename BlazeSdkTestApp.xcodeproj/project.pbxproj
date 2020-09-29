@@ -41,6 +41,8 @@
 		21732BF024E3D30E00296FCE /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21732BEF24E3D30E00296FCE /* ChangePasswordVC.swift */; };
 		C74A58AA25232B3C00AD77CB /* BlazeSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */; };
 		C74A58AB25232B3C00AD77CB /* BlazeSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C76FB1EC25236273006BA493 /* PowerUpHubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB1EB25236273006BA493 /* PowerUpHubVC.swift */; };
+		C76FB1EE25236C69006BA493 /* ConnectToWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB1ED25236C69006BA493 /* ConnectToWifi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +98,8 @@
 		4344AB8A3477615789F7619C /* Pods_BlazeSdkTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlazeSdkTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		518596B5A5230EC8EF5E19D9 /* Pods-BlazeSdkTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlazeSdkTestApp.debug.xcconfig"; path = "Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		99266C86073F725C84703AB0 /* Pods-BlazeSdkTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlazeSdkTestApp.release.xcconfig"; path = "Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		C76FB1EB25236273006BA493 /* PowerUpHubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpHubVC.swift; sourceTree = "<group>"; };
+		C76FB1ED25236C69006BA493 /* ConnectToWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectToWifi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				215269CD24EE509D0028C0E1 /* Registration */,
 				215269D024EE509D0028C0E1 /* Settings */,
 				211CEB2A24E11683009D0C50 /* HomeVC.swift */,
+				C76FB1EB25236273006BA493 /* PowerUpHubVC.swift */,
+				C76FB1ED25236C69006BA493 /* ConnectToWifi.swift */,
 			);
 			path = Controll;
 			sourceTree = "<group>";
@@ -388,12 +394,14 @@
 				211CEB3524E1456C009D0C50 /* HubListVC.swift in Sources */,
 				214901FF24DD8DA400DE5569 /* SystemAlert.swift in Sources */,
 				2149020024DD8DA400DE5569 /* Controller+Extension.swift in Sources */,
+				C76FB1EC25236273006BA493 /* PowerUpHubVC.swift in Sources */,
 				2163568D24D570F900A033F3 /* AppDelegate.swift in Sources */,
 				2163568F24D570F900A033F3 /* SceneDelegate.swift in Sources */,
 				211CEB6B24E2D7E1009D0C50 /* ForgotPassWordVC.swift in Sources */,
 				216C541C24E5099C003AFD5F /* LocationServices.swift in Sources */,
 				21732BF024E3D30E00296FCE /* ChangePasswordVC.swift in Sources */,
 				216C543524E59C29003AFD5F /* SettingsVC.swift in Sources */,
+				C76FB1EE25236C69006BA493 /* ConnectToWifi.swift in Sources */,
 				21528C3A24EB97FB0067390F /* DeviceInternalVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
