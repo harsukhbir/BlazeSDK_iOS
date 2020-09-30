@@ -1,14 +1,14 @@
 //
-//  PowerUpHubVC.swift
+//  PairingSensorVC.swift
 //  BlazeSdkTestApp
 //
-//  Created by nisha gupta on 29/09/20.
+//  Created by nisha gupta on 30/09/20.
 //  Copyright © 2020 Ram. All rights reserved.
 //
 
 import UIKit
 
-class PowerUpHubVC: UIViewController {
+class PairingSensorVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +17,6 @@ class PowerUpHubVC: UIViewController {
     }
     
 
-    func didChange<Value>(_ changeKind: NSKeyValueChange, valuesAt indexes: IndexSet, for keyPath: KeyPath<PowerUpHubVC, Value>) {
-       
-    }
     /*
     // MARK: - Navigation
 
@@ -30,7 +27,8 @@ class PowerUpHubVC: UIViewController {
     }
     */
 
-    @IBAction func acn_backBtn(_ sender: Any) {
+    @IBAction func acn_backBtnj(_ sender: Any) {
+        
         self.navigationController?.popViewController(animated: true)
     }
 }

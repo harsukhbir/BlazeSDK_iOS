@@ -27,4 +27,7 @@ class ConnectToWifi: UIViewController {
     }
     */
 
+    @IBAction func acn_backBtn(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
 }
