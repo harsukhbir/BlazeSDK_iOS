@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) </string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -25,11 +27,11 @@
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>App uses Bluetooth to connect to the Particle</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Test App is requesting location information to collect the external weather data of the user's location. This weather data will be used for plotting the Weather Graphs and predicting the Energy Consumption of the user.</string>
+	<string>Test App is requesting location information to collect the external weather data of the user&apos;s location. This weather data will be used for plotting the Weather Graphs and predicting the Energy Consumption of the user.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Test App is requesting location information to collect the external weather data of the user's location. This weather data will be used for plotting the Weather Graphs and predicting the Energy Consumption of the user.</string>
+	<string>Test App is requesting location information to collect the external weather data of the user&apos;s location. This weather data will be used for plotting the Weather Graphs and predicting the Energy Consumption of the user.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Test App is requesting location information to collect the external weather data of the user's location. This weather data will be used for plotting the Weather Graphs and predicting the Energy Consumption of the user.</string>
+	<string>Test App is requesting location information to collect the external weather data of the user&apos;s location. This weather data will be used for plotting the Weather Graphs and predicting the Energy Consumption of the user.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

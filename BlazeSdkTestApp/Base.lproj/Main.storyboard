@@ -462,21 +462,21 @@
                                     <fragment content="Power up the device and ensure the LED indicator is solid ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="RED">
                                         <attributes>
                                             <color key="NSColor" red="0.83702939750000005" green="0.0004596951185" blue="0.00063620432050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" color">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -499,35 +499,35 @@
                                     <fragment content="If its ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="solid blue">
                                         <attributes>
                                             <color key="NSColor" red="0.00030508878990000003" green="0.0" blue="0.96170836689999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=", or ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="blinking red">
                                         <attributes>
                                             <color key="NSColor" red="0.8053171039" green="0.0" blue="0.0022311068610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" press and hold the reset button for 8 seconds">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1798,8 +1798,8 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="YWg-gD-b6l">
-                                <rect key="frame" x="121" y="419" width="178" height="100"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="YWg-gD-b6l">
+                                <rect key="frame" x="118" y="419" width="178" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="178" id="1p2-Bg-jjF"/>
                                     <constraint firstAttribute="height" constant="100" id="4yK-7a-nfA"/>
@@ -1811,6 +1811,9 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                 <state key="normal" title="Take Photo of location">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="acn_photoBtn:" destination="dCI-hm-Q2l" eventType="touchUpInside" id="YYL-hI-0Zz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKL-yf-RgA">
                                 <rect key="frame" x="30" y="599" width="354" height="60"/>
@@ -1850,10 +1853,10 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                             <constraint firstItem="Pgj-GX-m7I" firstAttribute="trailing" secondItem="O0c-pz-bGf" secondAttribute="trailing" constant="20" id="QQE-Rn-UU0"/>
                             <constraint firstItem="bwW-Gf-j4B" firstAttribute="top" secondItem="Pgj-GX-m7I" secondAttribute="top" constant="15" id="Rbs-Gc-4Ty"/>
                             <constraint firstItem="O0c-pz-bGf" firstAttribute="top" secondItem="WCA-0G-OCm" secondAttribute="bottom" constant="20" id="Vk5-bH-Pje"/>
-                            <constraint firstItem="YWg-gD-b6l" firstAttribute="leading" secondItem="Pgj-GX-m7I" secondAttribute="leading" constant="121" id="XQK-lj-a85"/>
                             <constraint firstItem="WCA-0G-OCm" firstAttribute="leading" secondItem="Pgj-GX-m7I" secondAttribute="leading" constant="20" id="b1V-jS-4aY"/>
                             <constraint firstItem="YWg-gD-b6l" firstAttribute="top" secondItem="O0c-pz-bGf" secondAttribute="bottom" constant="30" id="bxC-Lk-TTD"/>
                             <constraint firstItem="Pgj-GX-m7I" firstAttribute="trailing" secondItem="WCA-0G-OCm" secondAttribute="trailing" constant="20" id="kP2-Xs-JPm"/>
+                            <constraint firstItem="YWg-gD-b6l" firstAttribute="centerX" secondItem="O0c-pz-bGf" secondAttribute="centerX" id="kjg-MW-hNK"/>
                             <constraint firstItem="Pgj-GX-m7I" firstAttribute="trailing" secondItem="BKL-yf-RgA" secondAttribute="trailing" constant="30" id="mQ4-rj-b48"/>
                             <constraint firstItem="BKL-yf-RgA" firstAttribute="leading" secondItem="Pgj-GX-m7I" secondAttribute="leading" constant="30" id="n3u-ui-Bhx"/>
                             <constraint firstItem="BKL-yf-RgA" firstAttribute="top" secondItem="YWg-gD-b6l" secondAttribute="bottom" constant="80" id="qye-95-4At"/>
@@ -1868,6 +1871,9 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imgVw" destination="YWg-gD-b6l" id="zLy-ks-cej"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7w-57-gVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
