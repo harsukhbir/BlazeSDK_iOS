@@ -36,14 +36,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "76FE7C8C-B4C5-4879-AB2B-42908ADE07AD - 642f3a8f6196a111"
+                  uuid = "76FE7C8C-B4C5-4879-AB2B-42908ADE07AD - 2351ed94860bc81f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "BlazeSdkTestApp.RegisterVC.clickOnRegisterBtn(Any) -&gt; ()"
                   moduleName = "BlazeSdkTestApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nisha/Downloads/BlazeSdkTestApp/BlazeSdkTestApp/Controll/Registration/RegisterVC.swift"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/Registration/RegisterVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -51,14 +51,14 @@
                   offsetFromSymbolStart = "148">
                </Location>
                <Location
-                  uuid = "76FE7C8C-B4C5-4879-AB2B-42908ADE07AD - a96d28734f332051"
+                  uuid = "76FE7C8C-B4C5-4879-AB2B-42908ADE07AD - ee13ff68a8ae491d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (__C.NSDictionary) -&gt; () in BlazeSdkTestApp.RegisterVC.clickOnRegisterBtn(Any) -&gt; ()"
                   moduleName = "BlazeSdkTestApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nisha/Downloads/BlazeSdkTestApp/BlazeSdkTestApp/Controll/Registration/RegisterVC.swift"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/Registration/RegisterVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "28"
@@ -145,6 +145,22 @@
             startingLineNumber = "23"
             endingLineNumber = "23"
             landmarkName = "clickOnLoginBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C4E27AF-156B-4B07-8017-B4A254E97F10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlazeSdkTestApp/Utility/Controller+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "attributedString(str:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

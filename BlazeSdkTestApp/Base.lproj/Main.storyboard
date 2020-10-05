@@ -462,21 +462,21 @@
                                     <fragment content="Power up the device and ensure the LED indicator is solid ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="RED">
                                         <attributes>
                                             <color key="NSColor" red="0.83702939750000005" green="0.0004596951185" blue="0.00063620432050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" color">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -499,35 +499,35 @@
                                     <fragment content="If its ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="solid blue">
                                         <attributes>
                                             <color key="NSColor" red="0.00030508878990000003" green="0.0" blue="0.96170836689999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=", or ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="blinking red">
                                         <attributes>
                                             <color key="NSColor" red="0.8053171039" green="0.0" blue="0.0022311068610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" press and hold the reset button for 8 seconds">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="label" size="17"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1780,10 +1780,10 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
             </objects>
             <point key="canvasLocation" x="1957.9710144927537" y="2670.5357142857142"/>
         </scene>
-        <!--PowerUpHubVC-->
+        <!--ConnectToWifi-->
         <scene sceneID="iNF-4G-C5m">
             <objects>
-                <viewController storyboardIdentifier="ConnectToWifi" id="dCI-hm-Q2l" userLabel="PowerUpHubVC" customClass="ConnectToWifi" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ConnectToWifi" id="dCI-hm-Q2l" userLabel="ConnectToWifi" customClass="ConnectToWifi" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cbM-9N-BAk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1879,10 +1879,10 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
             </objects>
             <point key="canvasLocation" x="3621.739130434783" y="2670.5357142857142"/>
         </scene>
-        <!--Curasene Hub Setup-->
+        <!--ConnectVC-->
         <scene sceneID="rTw-wu-20E">
             <objects>
-                <viewController storyboardIdentifier="ConnectVC" id="ny9-oX-CNG" customClass="ConnectVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ConnectVC" id="ny9-oX-CNG" userLabel="ConnectVC" customClass="ConnectVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gQr-rm-HdR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1951,10 +1951,10 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
             </objects>
             <point key="canvasLocation" x="4318.840579710145" y="2668.5267857142858"/>
         </scene>
-        <!--Curasene Hub Setup-->
+        <!--HomeUltimateSetup-->
         <scene sceneID="MhA-14-7q3">
             <objects>
-                <viewController storyboardIdentifier="HomeUltimateSetupVC" id="2aU-5e-pJ0" customClass="HomeUltimateSetupVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeUltimateSetupVC" id="2aU-5e-pJ0" userLabel="HomeUltimateSetup" customClass="HomeUltimateSetupVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="US7-Zg-ocT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2032,7 +2032,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="1Uf-oc-pEO" kind="show" id="pOH-BK-GqO"/>
+                                    <segue destination="lIq-X8-qqx" kind="show" id="HEZ-HH-4dF"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LiJ-x3-hLq">
@@ -2115,7 +2115,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Installation of sensors" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jy-Jf-Y9A">
-                                <rect key="frame" x="20" y="90" width="374" height="40"/>
+                                <rect key="frame" x="20" y="46" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="3Rd-ik-RYN"/>
                                 </constraints>
@@ -2276,9 +2276,6 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="ygt-YO-opm" kind="show" id="rmp-zF-OpV"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2300,265 +2297,109 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJI-4L-RvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5748" y="2679"/>
+            <point key="canvasLocation" x="6209" y="3408"/>
         </scene>
-        <!--Curasene Hub Setup-->
+        <!--InstallSensorVC-->
         <scene sceneID="UgL-Kb-FuS">
             <objects>
-                <viewController storyboardIdentifier="InstallationofSensorVC1" id="lIq-X8-qqx" customClass="InstallationofSensorVC1" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InstallSensorVC" id="lIq-X8-qqx" userLabel="InstallSensorVC" customClass="InstallSensorVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BUJ-hd-bra">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lrc-kA-CRv">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzw-eV-nPT">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Installation of sensors" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSq-cY-xnz">
-                                        <rect key="frame" x="20" y="10" width="364" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="E7j-XW-q5o"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motion Sensors" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="La6-H5-acA">
-                                        <rect key="frame" x="20" y="50" width="364" height="40"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Door Sensors" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbC-pv-76V">
-                                        <rect key="frame" x="20" y="230" width="364" height="24"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bathroom 1" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96R-Hy-WF2">
-                                        <rect key="frame" x="20" y="83" width="167" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="iUU-k6-NhN"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bathroom 2" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6y-Hl-FyC">
-                                        <rect key="frame" x="20" y="108" width="167" height="30"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hallway" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6t4-fF-25r">
-                                        <rect key="frame" x="20" y="135" width="167" height="24"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Living / Common Space" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pd9-Bq-YRK">
-                                        <rect key="frame" x="20" y="160" width="232" height="24"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Refrigerator" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODE-ZH-ZSq">
-                                        <rect key="frame" x="20" y="249" width="167" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="NeS-i1-svN"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Front Door" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ne3-hp-8hF">
-                                        <rect key="frame" x="20" y="276" width="167" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="I83-9l-oo1"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Back/Garage Door" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQY-PR-S9N">
-                                        <rect key="frame" x="20" y="304" width="167" height="30"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp/Humidity Sensor" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4o-Tc-cJ1">
-                                        <rect key="frame" x="20" y="361" width="232" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="Z7I-Is-I8R"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bathroom 1" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvL-nU-O9J">
-                                        <rect key="frame" x="20" y="405" width="167" height="24"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmO-41-Bga">
-                                        <rect key="frame" x="20" y="457" width="232" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="pOs-uw-Si9"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siren" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSQ-3t-0wg">
-                                        <rect key="frame" x="20" y="493" width="232" height="30"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cEj-U4-ZhD">
-                                        <rect key="frame" x="20" y="548" width="228" height="37"/>
-                                        <state key="normal">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Gateway Status: ">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.063329331576824188" green="0.025879258289933205" blue="0.087764985859394073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" metaFont="system" size="21"/>
-                                                    </attributes>
-                                                </fragment>
-                                                <fragment content="ONLINE">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.44655025005340576" green="0.77864044904708862" blue="0.70994710922241211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" metaFont="system" size="21"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </state>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAIRED" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWZ-ad-1EF">
-                                        <rect key="frame" x="207" y="83" width="177" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" red="0.45882352939999999" green="0.77647058820000003" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAIRED" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xao-2P-XZX">
-                                        <rect key="frame" x="207" y="108" width="177" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="VVH-V1-RT2"/>
-                                            <constraint firstAttribute="width" constant="177" id="pKb-MZ-hji"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" red="0.45920443529999999" green="0.77461951969999998" blue="0.70999550820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAIRED" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StR-WU-rDl">
-                                        <rect key="frame" x="207" y="135" width="177" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="45V-c8-YiU"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" red="0.45920443529999999" green="0.77461951969999998" blue="0.70999550820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxn-O1-AdX">
-                                        <rect key="frame" x="20" y="637" width="364" height="60"/>
-                                        <color key="backgroundColor" red="0.1754713953" green="0.73825132849999997" blue="0.94268697499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="a8v-kv-hsV"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Next">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="30"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iJx-dr-ji2">
+                                <rect key="frame" x="0.0" y="155" width="414" height="581"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="50" id="UI8-4L-0d2" customClass="SensorCell" customModule="BlazeSdkTestApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UI8-4L-0d2" id="oTc-9M-Hfh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dz-mY-Sfb">
+                                                    <rect key="frame" x="20" y="10" width="186" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="186" id="D9H-sl-LoV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aT-CG-6SA">
+                                                    <rect key="frame" x="211" y="10" width="183" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="5Dz-mY-Sfb" secondAttribute="bottom" constant="10" id="6IX-lB-Bgk"/>
+                                                <constraint firstAttribute="bottom" secondItem="2aT-CG-6SA" secondAttribute="bottom" constant="10" id="Gmu-kA-kBP"/>
+                                                <constraint firstItem="2aT-CG-6SA" firstAttribute="leading" secondItem="5Dz-mY-Sfb" secondAttribute="trailing" constant="5" id="LjO-s8-4yg"/>
+                                                <constraint firstItem="2aT-CG-6SA" firstAttribute="top" secondItem="oTc-9M-Hfh" secondAttribute="top" constant="10" id="Wxc-n1-zWR"/>
+                                                <constraint firstAttribute="trailing" secondItem="2aT-CG-6SA" secondAttribute="trailing" constant="20" id="YiI-5b-hEf"/>
+                                                <constraint firstItem="5Dz-mY-Sfb" firstAttribute="top" secondItem="oTc-9M-Hfh" secondAttribute="top" constant="10" id="bn3-iz-3cS"/>
+                                                <constraint firstItem="5Dz-mY-Sfb" firstAttribute="leading" secondItem="oTc-9M-Hfh" secondAttribute="leading" constant="20" id="t4W-4m-ecF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="lbl_Status" destination="2aT-CG-6SA" id="qbL-VM-loX"/>
+                                            <outlet property="lbl_Title" destination="5Dz-mY-Sfb" id="wJh-UY-zSj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="lIq-X8-qqx" id="lqn-g0-aW4"/>
+                                    <outlet property="delegate" destination="lIq-X8-qqx" id="uOL-gl-Wxw"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Installation of sensors" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Reg-0z-JGW">
+                                <rect key="frame" x="20" y="107" width="374" height="40"/>
                                 <constraints>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="p4o-Tc-cJ1" secondAttribute="leading" id="1E1-a0-cOf"/>
-                                    <constraint firstItem="cEj-U4-ZhD" firstAttribute="top" secondItem="cmO-41-Bga" secondAttribute="bottom" constant="51" id="2zx-D0-o9y"/>
-                                    <constraint firstItem="cmO-41-Bga" firstAttribute="top" secondItem="Lrc-kA-CRv" secondAttribute="top" constant="457" id="3g7-KH-DeN"/>
-                                    <constraint firstItem="fzw-eV-nPT" firstAttribute="bottom" secondItem="kcP-Y7-oXO" secondAttribute="bottom" id="4GG-yb-z9f"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="trailing" secondItem="96R-Hy-WF2" secondAttribute="trailing" id="4mi-sa-mED"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="96R-Hy-WF2" secondAttribute="leading" id="4pJ-vh-e8m"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="leading" secondItem="StR-WU-rDl" secondAttribute="leading" id="7zm-Vp-Ozq"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="cmO-41-Bga" secondAttribute="leading" id="8jn-gc-etq"/>
-                                    <constraint firstItem="La6-H5-acA" firstAttribute="top" secondItem="BSq-cY-xnz" secondAttribute="bottom" id="8x8-vD-flw"/>
-                                    <constraint firstItem="kcP-Y7-oXO" firstAttribute="trailing" secondItem="cmO-41-Bga" secondAttribute="trailing" constant="162" id="9Hn-2G-GiL"/>
-                                    <constraint firstItem="6t4-fF-25r" firstAttribute="top" secondItem="96R-Hy-WF2" secondAttribute="bottom" constant="22" id="9Xr-Ql-jw0"/>
-                                    <constraint firstItem="cmO-41-Bga" firstAttribute="trailing" secondItem="NSQ-3t-0wg" secondAttribute="trailing" id="BAj-xo-tqX"/>
-                                    <constraint firstItem="96R-Hy-WF2" firstAttribute="baseline" secondItem="hWZ-ad-1EF" secondAttribute="baseline" id="C4z-Cz-NFC"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="leading" secondItem="hWZ-ad-1EF" secondAttribute="leading" id="D1q-bi-KNf"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="baseline" secondItem="R6y-Hl-FyC" secondAttribute="baseline" id="DXP-Pf-WIw"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="trailing" secondItem="6t4-fF-25r" secondAttribute="trailing" id="DbT-UY-0Ha"/>
-                                    <constraint firstItem="cmO-41-Bga" firstAttribute="trailing" secondItem="pd9-Bq-YRK" secondAttribute="trailing" id="DeD-6w-2MU"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="trailing" secondItem="ODE-ZH-ZSq" secondAttribute="trailing" id="EIn-1P-Rvx"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="NSQ-3t-0wg" secondAttribute="leading" id="EPJ-fZ-pQL"/>
-                                    <constraint firstItem="p4o-Tc-cJ1" firstAttribute="top" secondItem="Ne3-hp-8hF" secondAttribute="bottom" constant="55" id="Ei9-nc-jyf"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="ODE-ZH-ZSq" secondAttribute="leading" id="GTc-Um-OZq"/>
-                                    <constraint firstItem="fzw-eV-nPT" firstAttribute="trailing" secondItem="kcP-Y7-oXO" secondAttribute="trailing" id="H4w-t3-2mx"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="trailing" secondItem="La6-H5-acA" secondAttribute="trailing" id="HNd-fN-J3P"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="trailing" secondItem="xao-2P-XZX" secondAttribute="trailing" id="I0C-zI-yuR"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="trailing" secondItem="StR-WU-rDl" secondAttribute="trailing" id="IWx-ov-Bhj"/>
-                                    <constraint firstItem="fzw-eV-nPT" firstAttribute="leading" secondItem="kcP-Y7-oXO" secondAttribute="leading" id="IkH-QF-KXK"/>
-                                    <constraint firstItem="cmO-41-Bga" firstAttribute="top" secondItem="bvL-nU-O9J" secondAttribute="bottom" constant="28" id="K9U-Od-EYR"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="kcP-Y7-oXO" secondAttribute="leading" constant="20" id="LYY-T3-P7o"/>
-                                    <constraint firstAttribute="bottom" secondItem="fzw-eV-nPT" secondAttribute="bottom" id="Lq1-gx-b6l"/>
-                                    <constraint firstItem="96R-Hy-WF2" firstAttribute="firstBaseline" secondItem="hWZ-ad-1EF" secondAttribute="firstBaseline" id="Nfd-dB-USV"/>
-                                    <constraint firstItem="kQY-PR-S9N" firstAttribute="top" secondItem="ODE-ZH-ZSq" secondAttribute="bottom" constant="25" id="Ngo-Md-fBf"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="trailing" secondItem="R6y-Hl-FyC" secondAttribute="trailing" id="OQ6-wd-G6J"/>
-                                    <constraint firstItem="cEj-U4-ZhD" firstAttribute="top" secondItem="NSQ-3t-0wg" secondAttribute="bottom" constant="25" id="PHt-MP-yLy"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="trailing" secondItem="bvL-nU-O9J" secondAttribute="trailing" id="PZk-8M-PsU"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="vbC-pv-76V" secondAttribute="leading" id="RBP-vL-SfP"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="top" secondItem="Lrc-kA-CRv" secondAttribute="top" constant="108" id="SU4-k4-l1K"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="cEj-U4-ZhD" secondAttribute="leading" id="Syx-cZ-s0Y"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="bvL-nU-O9J" secondAttribute="leading" id="VEK-5q-24m"/>
-                                    <constraint firstAttribute="trailing" secondItem="fzw-eV-nPT" secondAttribute="trailing" id="VlQ-e0-weT"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="6t4-fF-25r" secondAttribute="leading" id="Vnl-E6-Srt"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="trailing" secondItem="vbC-pv-76V" secondAttribute="trailing" id="WIt-Ya-w7z"/>
-                                    <constraint firstItem="96R-Hy-WF2" firstAttribute="top" secondItem="BSq-cY-xnz" secondAttribute="bottom" constant="33" id="Wpr-QE-n8f"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="La6-H5-acA" secondAttribute="leading" id="Y5P-CO-UsS"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="centerX" secondItem="Pxn-O1-AdX" secondAttribute="centerX" id="YCe-uX-mCj"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="trailing" secondItem="kQY-PR-S9N" secondAttribute="trailing" id="YSU-1V-o9N"/>
-                                    <constraint firstItem="ODE-ZH-ZSq" firstAttribute="top" secondItem="Lrc-kA-CRv" secondAttribute="top" constant="249" id="ZqA-ls-fJ6"/>
-                                    <constraint firstItem="cmO-41-Bga" firstAttribute="top" secondItem="p4o-Tc-cJ1" secondAttribute="bottom" constant="56" id="ahe-yl-m3F"/>
-                                    <constraint firstItem="Ne3-hp-8hF" firstAttribute="top" secondItem="vbC-pv-76V" secondAttribute="bottom" constant="22" id="bs6-co-wJa"/>
-                                    <constraint firstItem="fzw-eV-nPT" firstAttribute="top" secondItem="kcP-Y7-oXO" secondAttribute="top" id="dNs-hJ-urO"/>
-                                    <constraint firstItem="kcP-Y7-oXO" firstAttribute="trailing" secondItem="BSq-cY-xnz" secondAttribute="trailing" constant="30" id="eSw-Vc-Wz4"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="kQY-PR-S9N" secondAttribute="leading" id="g9I-6L-5Rv"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="top" secondItem="kcP-Y7-oXO" secondAttribute="top" constant="10" id="hA9-y9-FZi"/>
-                                    <constraint firstItem="StR-WU-rDl" firstAttribute="firstBaseline" secondItem="6t4-fF-25r" secondAttribute="baseline" id="lEC-gB-ZQY"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="firstBaseline" secondItem="R6y-Hl-FyC" secondAttribute="firstBaseline" id="m7l-pZ-7A7"/>
-                                    <constraint firstItem="p4o-Tc-cJ1" firstAttribute="top" secondItem="kQY-PR-S9N" secondAttribute="bottom" constant="27" id="mfL-8z-2CF"/>
-                                    <constraint firstItem="Pxn-O1-AdX" firstAttribute="leading" secondItem="kcP-Y7-oXO" secondAttribute="leading" constant="20" id="nHy-RD-v9n"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="Ne3-hp-8hF" secondAttribute="leading" id="oz2-A3-zSq"/>
-                                    <constraint firstItem="cmO-41-Bga" firstAttribute="trailing" secondItem="p4o-Tc-cJ1" secondAttribute="trailing" id="r8W-W1-9H3"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="pd9-Bq-YRK" secondAttribute="leading" id="sDA-Se-bay"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="trailing" secondItem="hWZ-ad-1EF" secondAttribute="trailing" id="vY2-Sm-c1Z"/>
-                                    <constraint firstItem="BSq-cY-xnz" firstAttribute="leading" secondItem="R6y-Hl-FyC" secondAttribute="leading" id="vkc-ea-MAM"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="top" secondItem="La6-H5-acA" secondAttribute="bottom" constant="18" id="xpP-x6-VRK"/>
-                                    <constraint firstItem="Pxn-O1-AdX" firstAttribute="top" secondItem="cEj-U4-ZhD" secondAttribute="bottom" constant="52" id="y7Z-Ho-m1n"/>
-                                    <constraint firstItem="pd9-Bq-YRK" firstAttribute="top" secondItem="xao-2P-XZX" secondAttribute="bottom" constant="22" id="yfn-2M-GcB"/>
-                                    <constraint firstItem="xao-2P-XZX" firstAttribute="leading" secondItem="96R-Hy-WF2" secondAttribute="trailing" constant="20" id="yu4-SV-86F"/>
-                                    <constraint firstItem="NSQ-3t-0wg" firstAttribute="top" secondItem="bvL-nU-O9J" secondAttribute="bottom" constant="64" id="zfk-bQ-SUU"/>
+                                    <constraint firstAttribute="height" constant="40" id="5LA-ah-Ku3"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="tEW-Bf-BIH"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="kcP-Y7-oXO"/>
-                            </scrollView>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D67-uA-IQV">
+                                <rect key="frame" x="30" y="765" width="354" height="60"/>
+                                <color key="backgroundColor" red="0.1754713953" green="0.73825132849999997" blue="0.94268697499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="m9j-YJ-kp5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ygt-YO-opm" kind="show" id="Yhb-2J-vtd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Lrc-kA-CRv" firstAttribute="top" secondItem="KAD-pT-NqO" secondAttribute="top" id="arj-sT-ox0"/>
-                            <constraint firstItem="Lrc-kA-CRv" firstAttribute="centerX" secondItem="BUJ-hd-bra" secondAttribute="centerX" id="azh-4N-udY"/>
-                            <constraint firstItem="Lrc-kA-CRv" firstAttribute="leading" secondItem="KAD-pT-NqO" secondAttribute="leading" id="rI9-aH-1g7"/>
-                            <constraint firstItem="Lrc-kA-CRv" firstAttribute="bottom" secondItem="KAD-pT-NqO" secondAttribute="bottom" id="u1N-h7-ac4"/>
+                            <constraint firstItem="KAD-pT-NqO" firstAttribute="bottom" secondItem="D67-uA-IQV" secondAttribute="bottom" constant="37" id="0e2-JH-lp0"/>
+                            <constraint firstItem="Reg-0z-JGW" firstAttribute="leading" secondItem="KAD-pT-NqO" secondAttribute="leading" constant="20" id="5mP-SX-ErQ"/>
+                            <constraint firstItem="iJx-dr-ji2" firstAttribute="leading" secondItem="KAD-pT-NqO" secondAttribute="leading" id="87o-sv-ZcG"/>
+                            <constraint firstItem="iJx-dr-ji2" firstAttribute="top" secondItem="Reg-0z-JGW" secondAttribute="bottom" constant="8" id="Iag-Ii-gnS"/>
+                            <constraint firstItem="iJx-dr-ji2" firstAttribute="trailing" secondItem="KAD-pT-NqO" secondAttribute="trailing" id="PNE-Ub-hWt"/>
+                            <constraint firstItem="D67-uA-IQV" firstAttribute="leading" secondItem="KAD-pT-NqO" secondAttribute="leading" constant="30" id="POu-4v-TdB"/>
+                            <constraint firstItem="D67-uA-IQV" firstAttribute="top" secondItem="iJx-dr-ji2" secondAttribute="bottom" constant="29" id="U8R-q6-lAz"/>
+                            <constraint firstItem="D67-uA-IQV" firstAttribute="top" secondItem="iJx-dr-ji2" secondAttribute="bottom" constant="29" id="cfy-dd-y4I"/>
+                            <constraint firstItem="Reg-0z-JGW" firstAttribute="top" secondItem="KAD-pT-NqO" secondAttribute="top" constant="19" id="gSK-YN-7Ld"/>
+                            <constraint firstItem="KAD-pT-NqO" firstAttribute="trailing" secondItem="Reg-0z-JGW" secondAttribute="trailing" constant="20" id="grB-Gz-uwf"/>
+                            <constraint firstItem="iJx-dr-ji2" firstAttribute="top" secondItem="Reg-0z-JGW" secondAttribute="bottom" constant="8" id="iyO-lf-RuR"/>
+                            <constraint firstItem="KAD-pT-NqO" firstAttribute="trailing" secondItem="D67-uA-IQV" secondAttribute="trailing" constant="30" id="vN4-f5-fou"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KAD-pT-NqO"/>
                     </view>
@@ -2566,19 +2407,22 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                         <barButtonItem key="leftBarButtonItem" title="Item" image="back" id="7CU-8I-19W">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="acn_backBtn:" destination="lIq-X8-qqx" id="8bQ-B2-Zf0"/>
+                                <action selector="acn_BackBtn:" destination="lIq-X8-qqx" id="lN3-HJ-oBr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tblVw_Sensor" destination="iJx-dr-ji2" id="Rdp-P5-nw4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Eb-vq-AG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5953.6231884057979" y="3402.4553571428569"/>
+            <point key="canvasLocation" x="5771" y="2672"/>
         </scene>
-        <!--Curasene Hub Setup-->
+        <!--PairingSensor-->
         <scene sceneID="bEh-cg-P1D">
             <objects>
-                <viewController storyboardIdentifier="PairingSensorVC" id="ygt-YO-opm" customClass="PairingSensorVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PairingSensorVC" id="ygt-YO-opm" userLabel="PairingSensor" customClass="PairingSensorVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tso-fy-3Xl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2651,7 +2495,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iT9-mA-4Of" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6463.7681159420299" y="2678.5714285714284"/>
+            <point key="canvasLocation" x="6464" y="2672"/>
         </scene>
     </scenes>
     <resources>

@@ -123,6 +123,18 @@ extension UIViewController {
         navigationController?.present(alert, animated: true)
     }
 
+   func attributedString(str:String)->NSAttributedString{
+       // create attributed string
+    
+    let defaultBlueColor = UIColor(red: 45/255, green: 188/255, blue: 240/255, alpha: 1)
+       let myString = str
+    let myAttribute = [ NSAttributedString.Key.foregroundColor: defaultBlueColor ]
+       let myAttrString = NSAttributedString(string: myString, attributes: myAttribute)
+
+       // set attributed text on a UILabel
+     return myAttrString
+   }
+    
 }
 
 
