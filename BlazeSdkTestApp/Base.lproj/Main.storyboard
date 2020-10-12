@@ -219,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izX-rJ-5bi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1133" y="2268"/>
+            <point key="canvasLocation" x="-661" y="1766"/>
         </scene>
         <!--Profile-->
         <scene sceneID="g1F-Ao-ZdQ">
@@ -551,7 +551,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="dCI-hm-Q2l" kind="show" id="Vbz-2M-VRn"/>
+                                    <segue destination="7vw-gX-M6J" kind="show" id="ocg-Zf-ZKh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -582,7 +582,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JkO-Dh-JEC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2868.115942028986" y="2670.5357142857142"/>
+            <point key="canvasLocation" x="1548" y="2585"/>
         </scene>
         <!--Change access point-->
         <scene sceneID="AnF-TM-EsM">
@@ -1778,7 +1778,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vAP-B5-DNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1957.9710144927537" y="2670.5357142857142"/>
+            <point key="canvasLocation" x="755" y="2585"/>
         </scene>
         <!--ConnectToWifi-->
         <scene sceneID="iNF-4G-C5m">
@@ -1832,7 +1832,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ny9-oX-CNG" kind="show" id="aN5-Wm-NUp"/>
+                                    <segue destination="lIq-X8-qqx" kind="show" id="Gqr-ax-HIK"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ddc icon" translatesAutoresizingMaskIntoConstraints="NO" id="bwW-Gf-j4B">
@@ -1877,7 +1877,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7w-57-gVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3621.739130434783" y="2670.5357142857142"/>
+            <point key="canvasLocation" x="5336" y="2577"/>
         </scene>
         <!--ConnectVC-->
         <scene sceneID="rTw-wu-20E">
@@ -1920,7 +1920,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="2aU-5e-pJ0" kind="show" id="OLu-w4-oKs"/>
+                                    <segue destination="RvK-Pr-e54" kind="show" id="gXn-LA-PuY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1949,7 +1949,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tq2-Bg-TzK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4318.840579710145" y="2668.5267857142858"/>
+            <point key="canvasLocation" x="3020" y="2578"/>
         </scene>
         <!--HomeUltimateSetup-->
         <scene sceneID="MhA-14-7q3">
@@ -2032,7 +2032,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="lIq-X8-qqx" kind="show" id="HEZ-HH-4dF"/>
+                                    <segue destination="dCI-hm-Q2l" kind="show" id="7eP-te-d45"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LiJ-x3-hLq">
@@ -2104,7 +2104,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mzm-Fh-Umn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5023.188405797102" y="2671.875"/>
+            <point key="canvasLocation" x="4564" y="2577"/>
         </scene>
         <!--Curasene Hub Setup-->
         <scene sceneID="eUV-Z7-0c8">
@@ -2417,7 +2417,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Eb-vq-AG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5771" y="2672"/>
+            <point key="canvasLocation" x="6035" y="2577"/>
         </scene>
         <!--PairingSensor-->
         <scene sceneID="bEh-cg-P1D">
@@ -2495,7 +2495,197 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iT9-mA-4Of" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6464" y="2672"/>
+            <point key="canvasLocation" x="6754" y="2577"/>
+        </scene>
+        <!--HubIdVC-->
+        <scene sceneID="1ZE-Vp-DML">
+            <objects>
+                <viewController storyboardIdentifier="HubIdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7vw-gX-M6J" userLabel="HubIdVC" customClass="HubIdVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WJH-MR-L4B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j74-Om-ygv">
+                                <rect key="frame" x="30" y="592.5" width="354" height="71.5"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.74509803919999995" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="acn_NextBtn:" destination="7vw-gX-M6J" eventType="touchUpInside" id="YpU-3s-oXn"/>
+                                    <segue destination="ny9-oX-CNG" kind="show" id="IuA-NX-r4k"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now your Hub is online. Enter Hub name and click on 'Add Hub' button." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMU-XZ-0dc">
+                                <rect key="frame" x="42" y="348" width="330" height="200"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hubname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xcc-wF-fgf">
+                                <rect key="frame" x="30" y="199" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Cbs-jb-Cbm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hub ID :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBA-bG-A4G">
+                                <rect key="frame" x="30" y="168" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PMU-XZ-0dc" firstAttribute="centerX" secondItem="ico-aU-7oS" secondAttribute="centerX" id="1fG-v9-jDE"/>
+                            <constraint firstItem="PMU-XZ-0dc" firstAttribute="centerY" secondItem="WJH-MR-L4B" secondAttribute="centerY" id="6Ha-xk-iFu"/>
+                            <constraint firstItem="j74-Om-ygv" firstAttribute="height" secondItem="WJH-MR-L4B" secondAttribute="height" multiplier="0.08" id="CcY-OD-4LK"/>
+                            <constraint firstItem="ico-aU-7oS" firstAttribute="trailing" secondItem="xcc-wF-fgf" secondAttribute="trailing" constant="30" id="HHu-zy-iZH"/>
+                            <constraint firstItem="ico-aU-7oS" firstAttribute="bottom" secondItem="j74-Om-ygv" secondAttribute="bottom" constant="198" id="JfQ-Ts-AQZ"/>
+                            <constraint firstItem="ico-aU-7oS" firstAttribute="trailing" secondItem="TBA-bG-A4G" secondAttribute="trailing" constant="30" id="JpN-gu-Bd7"/>
+                            <constraint firstItem="PMU-XZ-0dc" firstAttribute="width" secondItem="WJH-MR-L4B" secondAttribute="width" multiplier="0.797101" id="Nm0-A4-nwx"/>
+                            <constraint firstItem="xcc-wF-fgf" firstAttribute="leading" secondItem="ico-aU-7oS" secondAttribute="leading" constant="30" id="Uzh-HP-YQZ"/>
+                            <constraint firstItem="ico-aU-7oS" firstAttribute="trailing" secondItem="j74-Om-ygv" secondAttribute="trailing" constant="30" id="Vt5-rt-eby"/>
+                            <constraint firstItem="TBA-bG-A4G" firstAttribute="leading" secondItem="ico-aU-7oS" secondAttribute="leading" constant="30" id="XUA-IN-1f2"/>
+                            <constraint firstItem="TBA-bG-A4G" firstAttribute="top" secondItem="ico-aU-7oS" secondAttribute="top" constant="80" id="chv-yt-9od"/>
+                            <constraint firstItem="PMU-XZ-0dc" firstAttribute="height" secondItem="WJH-MR-L4B" secondAttribute="height" multiplier="0.223214" id="enp-gs-w0N"/>
+                            <constraint firstItem="j74-Om-ygv" firstAttribute="leading" secondItem="ico-aU-7oS" secondAttribute="leading" constant="30" id="hvb-Wz-5qd"/>
+                            <constraint firstItem="xcc-wF-fgf" firstAttribute="top" secondItem="TBA-bG-A4G" secondAttribute="bottom" constant="10" id="xaD-40-oAa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ico-aU-7oS"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hub ID" id="udR-4O-8o4">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="back" id="A0p-SX-mWy">
+                            <color key="tintColor" red="0.063329331576824188" green="0.025879258289933205" blue="0.087764985859394073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="acn_BackBtn:" destination="7vw-gX-M6J" id="wdM-s7-mPX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FN5-SL-TND" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2326" y="2585"/>
+        </scene>
+        <!--WifiPasswordVC-->
+        <scene sceneID="Emm-cY-SJz">
+            <objects>
+                <viewController storyboardIdentifier="WifiPasswordVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RvK-Pr-e54" userLabel="WifiPasswordVC" customClass="WifiPasswordVC" customModule="BlazeSdkTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ekq-4j-kah">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ssid" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7n-TB-DtG">
+                                <rect key="frame" x="30" y="204" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Eef-Yl-dlV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSID :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cu7-gc-67a">
+                                <rect key="frame" x="30" y="168" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nfo-78-mnG">
+                                <rect key="frame" x="30" y="310" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NP2-Ws-ZcM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofj-l9-Nj7">
+                                <rect key="frame" x="30" y="274" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1e-ba-ugs">
+                                <rect key="frame" x="30" y="772" width="354" height="60"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.74509803919999995" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Send Wi-Fi details">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="acn_SendWifiData:" destination="RvK-Pr-e54" eventType="touchUpInside" id="yPw-BN-h8Y"/>
+                                    <segue destination="2aU-5e-pJ0" kind="show" id="mmw-hT-fCJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please provide your home wifi credentials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfu-zV-PYd">
+                                <rect key="frame" x="30" y="108" width="354" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTZ-b5-pcY">
+                                <rect key="frame" x="284" y="158.5" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.74509803919999995" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="cKx-dI-vPf"/>
+                                    <constraint firstAttribute="height" constant="40" id="po2-IG-F1J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Wi-Fi list">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickOnWifiListBtn:" destination="RvK-Pr-e54" eventType="touchUpInside" id="AmP-iE-Jer"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="h7n-TB-DtG" firstAttribute="leading" secondItem="tsE-H3-VVF" secondAttribute="leading" constant="30" id="07w-tw-DiX"/>
+                            <constraint firstItem="Ofj-l9-Nj7" firstAttribute="top" secondItem="h7n-TB-DtG" secondAttribute="bottom" constant="30" id="320-w3-Ezr"/>
+                            <constraint firstItem="nfo-78-mnG" firstAttribute="top" secondItem="Ofj-l9-Nj7" secondAttribute="bottom" constant="15" id="9dm-c9-82s"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="bottom" secondItem="L1e-ba-ugs" secondAttribute="bottom" constant="30" id="E3a-Il-yBW"/>
+                            <constraint firstItem="L1e-ba-ugs" firstAttribute="height" secondItem="Ekq-4j-kah" secondAttribute="height" multiplier="0.0669643" id="FWT-5e-oul"/>
+                            <constraint firstItem="cu7-gc-67a" firstAttribute="leading" secondItem="tsE-H3-VVF" secondAttribute="leading" constant="30" id="G91-0F-P9z"/>
+                            <constraint firstItem="h7n-TB-DtG" firstAttribute="top" secondItem="cu7-gc-67a" secondAttribute="bottom" constant="15" id="HVP-NU-MMq"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="trailing" secondItem="nfo-78-mnG" secondAttribute="trailing" constant="30" id="Luo-ea-Ayi"/>
+                            <constraint firstItem="L1e-ba-ugs" firstAttribute="leading" secondItem="tsE-H3-VVF" secondAttribute="leading" constant="30" id="MmQ-XQ-eez"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="trailing" secondItem="JTZ-b5-pcY" secondAttribute="trailing" constant="30" id="Q3b-bS-AAh"/>
+                            <constraint firstItem="JTZ-b5-pcY" firstAttribute="centerY" secondItem="cu7-gc-67a" secondAttribute="centerY" id="RAG-wB-xwx"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="trailing" secondItem="L1e-ba-ugs" secondAttribute="trailing" constant="30" id="SeZ-H0-04S"/>
+                            <constraint firstItem="cu7-gc-67a" firstAttribute="top" secondItem="tsE-H3-VVF" secondAttribute="top" constant="80" id="TuY-G8-SG0"/>
+                            <constraint firstItem="Ofj-l9-Nj7" firstAttribute="leading" secondItem="tsE-H3-VVF" secondAttribute="leading" constant="30" id="alF-A0-SSH"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="trailing" secondItem="h7n-TB-DtG" secondAttribute="trailing" constant="30" id="buG-za-60N"/>
+                            <constraint firstItem="Wfu-zV-PYd" firstAttribute="top" secondItem="tsE-H3-VVF" secondAttribute="top" constant="20" id="es9-h2-Bn2"/>
+                            <constraint firstItem="Wfu-zV-PYd" firstAttribute="leading" secondItem="tsE-H3-VVF" secondAttribute="leading" constant="30" id="rDX-wL-qxS"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="trailing" secondItem="Wfu-zV-PYd" secondAttribute="trailing" constant="30" id="rxx-ZW-N3d"/>
+                            <constraint firstItem="nfo-78-mnG" firstAttribute="leading" secondItem="tsE-H3-VVF" secondAttribute="leading" constant="30" id="vWO-kg-neT"/>
+                            <constraint firstItem="tsE-H3-VVF" firstAttribute="trailing" secondItem="Ofj-l9-Nj7" secondAttribute="trailing" constant="30" id="yJ9-7h-E6L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tsE-H3-VVF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wifi Password" id="Sjx-sS-Bpm"/>
+                    <connections>
+                        <outlet property="tf_Password" destination="nfo-78-mnG" id="gR4-ep-Efw"/>
+                        <outlet property="tf_Ssid" destination="h7n-TB-DtG" id="yNd-0r-rp6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GP4-sO-2QW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3793" y="2577"/>
         </scene>
     </scenes>
     <resources>

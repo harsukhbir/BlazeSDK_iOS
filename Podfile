@@ -8,6 +8,8 @@ target 'BlazeSdkTestApp' do
 
  pod 'TPKeyboardAvoiding', '~> 1.3' #scrollview for avoiding keyboard
 pod 'NVActivityIndicatorView'
+pod 'Alamofire'
+pod 'SwiftyJSON'
 
 
   # Pods for BlazeSdkTestApp
