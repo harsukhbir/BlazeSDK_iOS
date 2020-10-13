@@ -21,7 +21,7 @@ class HubIdVC: UIViewController {
     
     @IBAction func acn_NextBtn(_ sender: Any) {
         
-        callApiForAddHub()
+       // callApiForAddHub()
     }
     
     @IBAction func acn_BackBtn(_ sender: Any) {

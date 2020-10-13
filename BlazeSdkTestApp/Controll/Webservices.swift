@@ -29,6 +29,50 @@ final class Webservices
     private init() {}
     
 
+    
+    func postMethod(_ urlString:String,param: [String:Any], completion: @escaping (_ isSuccess :Bool, _ response: AnyObject) -> Void) {
+        
+       // if self.isReachable {
+            
+            guard let serviceUrl = URL(string: urlString) else { return }
+            var request = URLRequest(url: serviceUrl)
+            request.httpMethod = "POST"
+            request.timeoutInterval = 60
+            request.cachePolicy = .reloadIgnoringLocalCacheData
+            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            request.setValue("Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJYelM3Y0tka1VXRm9mWVZUR2pYM0ZIbVVNSVQ1cnpGd2k2TW5LQktmYnI0In0.eyJleHAiOjE2MDI1ODc4MjYsImlhdCI6MTYwMjU4NjAyNiwiYXV0aF90aW1lIjoxNjAyNTg2MDI0LCJqdGkiOiJhNTgwNGI3ZC1jZDk3LTQzNTAtYmIzYy1jYjMwYWUyMWYxZWUiLCJpc3MiOiJodHRwczovL2F1dGguZGV2LmRhdGFkcml2ZW5jYXJlLm5ldC9hdXRoL3JlYWxtcy9kZGMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYzVjMDhhOWEtNTBhYy00NGMyLTk5YTYtMmE4OWU0MjkzODE4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZGRjLXdlYiIsIm5vbmNlIjoiYTNhYTgyNzAtNmU0ZS00ZmQ3LTg0OTctYjczY2E1ZDI0NjA4Iiwic2Vzc2lvbl9zdGF0ZSI6IjRlZDBkOTA5LTY2ODEtNDdjMi04YTgxLTJjM2YzM2QyY2ZkZiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9hZG1pbi5kZXYuZGF0YWRyaXZlbmNhcmUubmV0IiwiaHR0cHM6Ly9kZXYuZGF0YWRyaXZlbmNhcmUubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwic3VwZXJBZG1pbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2FyZWVtIn0.pKHIXfg8pasiHnirtrPOjXW8F67cLsNFSaZVcdFwXGBz3mGlICP52x2ADQXWGJQ1QVVuHnJc_s_fVz0j2SJB2ErcmQ07z6E-6xBJomyas-W5UklP7zQEA4F3vya17_sy-nb0iPYdMxKgJ5Z7tPRaqzT8F78pmbxVtwicNAAD76tLM28vUeSGXrOinvmsFdLGg7sPHl_hNyFheKySLY2ytWNdbPZ3109BCBLH3wdIzL-M9DESC5TiIM5MEqMS43nUab5F4_O2JJcSr_mFfIzDUEfC3NeJK1u8HSnJlmTlzS3eVuEd4ZyGaqS1CBGuyBj889UX2J-mPH4A8qZ0VJI9HA", forHTTPHeaderField: "authorization")
+        
+            guard let httpBody = try? JSONSerialization.data(withJSONObject: param, options: []) else {
+                return
+            }
+            request.httpBody = httpBody
+            let session = URLSession.shared
+            session.dataTask(with: request) { (data, response, error) in
+                // Check Data
+                if let data = data {
+                    // Json Response
+                    
+                    _ = JSONDecoder()
+                    // let value  = try! decoder.decode(login.self, from: data)
+                    
+                    //  print(value)
+                    
+                    let json = try? JSONSerialization.jsonObject(with: data, options: [])
+                    // response.
+                    if let response = response as? HTTPURLResponse , 200...299 ~= response.statusCode {
+                        completion(true,json as AnyObject)
+                    } else {
+                        completion(true,json as AnyObject)
+                    }
+                } else {
+                    DispatchQueue.main.async {
+                        // Utility.showErrorAlert(error: .networkError)
+                    }
+                }
+                }.resume()
+      
+    }
+    
      // MARK: - URLSession methods
        func getwithoutHeaderMethod<T: Codable>(_ url:String, completion: @escaping (T?, _ error:String?) -> ()) {
            print(url)
@@ -177,7 +221,7 @@ final class Webservices
        }
     
     
-    func postMethod<T: Codable>(_ urlString:String ,param: [String:Any], header: Bool, completion: @escaping (_ Error :String?, _ response: T?) -> Void) {
+    func postMethod(_ urlString:String ,param: [String:Any], header: Bool, completion: @escaping (_ Error :String?, _ response: [String:Any]) -> Void) {
         print("PARAM==> \(param)")
         if(Reachability.isConnectedToNetwork()){
             guard let serviceUrl = URL(string: urlString) else { return }
@@ -207,24 +251,26 @@ final class Webservices
                     // response.
                     if let response = response as? HTTPURLResponse , 200...299 ~= response.statusCode {
                         do {
-                            let model = try JSONDecoder().decode(T.self, from: data)
-                            completion(nil,model)
+                           print(response)
                         } catch let jsonErr {
                             print("failed to decode, \(jsonErr)")
-                            completion(jsonErr.localizedDescription,nil)
+                           
                         }
                     }
                     else {
-                        completion(error?.localizedDescription,nil)
+                        print("failed to decode, \(error?.localizedDescription ?? "")")
+                       // completion(error?.localizedDescription)
                     }
                 } else {
-                    completion(error?.localizedDescription, nil)
+                    //completion(error?.localizedDescription)
+                     print("failed to decode, \(error?.localizedDescription ?? "")")
                 }
             }.resume()
         } else {
             DispatchQueue.main.async {
                  SystemAlert().removeLoader()
-                completion("Please check your internet connection!", nil)
+                //completion("Please check your internet connection!", nil)
+                print("Please check your internet connection")
             }
         }
     }

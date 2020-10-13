@@ -32,13 +32,21 @@ open class Reachability {
 
 struct connectionInfo
 {                                       
-    static let PRODUCTION_SERVER_URL =  "http://163.47.212.59:5000"
-    static let DEVELOPMENT_SERVER_URL = "http://202.164.36.14:5000"
+    static let SERVER_URL =  "https://api.dev.datadrivencare.net/"
+    
     static let HTTP_HEADER_ENCODING = "application/json; charset=utf-8"
     static let HTTP_CONTENT_TYPE = "Content-Type"
     static let HTTP_CONTENT_LENGTH = "Content-Length"
     static let HTTP_METHOD = "POST"
     static let HTTP_METHOD_GET = "GET"
+}
+
+struct apiMethod {
+    
+    static let hubInstallation = "hubs/C44F33354375/installation"
+    static let hubAddSensor = "hubs/C44F33354375/sensors"
+    
+  
 }
 
 

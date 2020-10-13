@@ -11,6 +11,7 @@ import UIKit
 class ConnectToWifi: UIViewController {
 fileprivate var currentVC: UIViewController!
     @IBOutlet weak var imgVw: UIImageView!
+    var photoString = ""
     
     //MARK:- Life Cycle Methods
     override func viewDidLoad() {
@@ -41,6 +42,7 @@ fileprivate var currentVC: UIViewController!
             let myPickerController = UIImagePickerController()
             myPickerController.delegate = self;
             myPickerController.sourceType = .camera
+            myPickerController.allowsEditing = true
             currentVC.present(myPickerController, animated: true, completion: nil)
         }
         
@@ -74,6 +76,27 @@ fileprivate var currentVC: UIViewController!
         
         vc.present(actionSheet, animated: true, completion: nil)
     }
+    
+    func callApiForHubAddSensor(){
+        
+        let dict = ["installationPhoto": "iOS",
+                    "location":"bathroom",
+                    "model": "doorv1",
+                    "pairingId": "string",
+                    "type": "door"] as [String : Any]
+        
+      
+        
+        Webservices.instance.postMethod(connectionInfo.SERVER_URL + apiMethod.hubAddSensor , param: dict) { (status, response) in
+            if(status == true){
+                
+                SystemAlert().basicActionAlert(withTitle: "", message: "", actions: [.okAlert]) { (alert) in
+     
+                }
+                
+            }
+        }
+    }
 }
 
 extension ConnectToWifi: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
@@ -81,13 +104,31 @@ extension ConnectToWifi: UIImagePickerControllerDelegate, UINavigationController
         currentVC.dismiss(animated: true, completion: nil)
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        print("Naina Devi")
         if let getImage = info[UIImagePickerController.InfoKey.originalImage.rawValue] as? UIImage {
             self.imgVw.image = getImage
+            photoString = convertImageToBase64String(img: getImage)
+            
         }else{
             print("Something went wrong")
         }
         currentVC.dismiss(animated: true, completion: nil)
     }
     
+    func convertImageToBase64String (img: UIImage) -> String {
+        let imageData:NSData = img.jpegData(compressionQuality: 0.50)! as NSData //UIImagePNGRepresentation(img)
+        let imgString = imageData.base64EncodedString(options: .init(rawValue: 0))
+        return imgString
+    }
 }
+
+//extension String {
+//
+//    func convertImageToBase64String (img: UIImage) -> String {
+//        let imageData:NSData = img.jpegData(compressionQuality: 0.50)! as NSData //UIImagePNGRepresentation(img)
+//        let imgString = imageData.base64EncodedString(options: .init(rawValue: 0))
+//        return imgString
+//    }
+//
+//}
