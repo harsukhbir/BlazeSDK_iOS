@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ConnectToWifi: UIViewController {
+class ConnectToWifi: UIViewController{//,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 fileprivate var currentVC: UIViewController!
     @IBOutlet weak var imgVw: UIImageView!
+    let imagePicker = UIImagePickerController()
     var photoString = ""
     
     //MARK:- Life Cycle Methods
@@ -20,17 +21,15 @@ fileprivate var currentVC: UIViewController!
        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imgAction))
 
         imgVw.addGestureRecognizer(tap)
+        
+        imagePicker.delegate = self
     }
     @objc func imgAction(){
 
        self.showActionSheet(vc: self)
+        
+
     }
-
-
-//    @IBAction func acn_photoBtn(_ sender: Any) {
-//         self.showActionSheet(vc: self)
-//    }
-    
 
     @IBAction func acn_backBtn(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
@@ -39,11 +38,11 @@ fileprivate var currentVC: UIViewController!
     func camera()
     {
         if UIImagePickerController.isSourceTypeAvailable(.camera){
-            let myPickerController = UIImagePickerController()
-            myPickerController.delegate = self;
-            myPickerController.sourceType = .camera
-            myPickerController.allowsEditing = true
-            currentVC.present(myPickerController, animated: true, completion: nil)
+            
+            imagePicker.allowsEditing = true
+            imagePicker.sourceType = .camera
+            
+            present(imagePicker, animated: true, completion: nil)
         }
         
     }
@@ -52,10 +51,10 @@ fileprivate var currentVC: UIViewController!
     {
         
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
-            let myPickerController = UIImagePickerController()
-            myPickerController.delegate = self;
-            myPickerController.sourceType = .photoLibrary
-            currentVC.present(myPickerController, animated: true, completion: nil)
+            imagePicker.allowsEditing = true
+            imagePicker.sourceType = .camera
+            
+            present(imagePicker, animated: true, completion: nil)
         }
         
     }
@@ -79,7 +78,7 @@ fileprivate var currentVC: UIViewController!
     
     func callApiForHubAddSensor(){
         
-        let dict = ["installationPhoto": "iOS",
+        let dict = ["installationPhoto": photoString,
                     "location":"bathroom",
                     "model": "doorv1",
                     "pairingId": "string",
@@ -90,32 +89,39 @@ fileprivate var currentVC: UIViewController!
         Webservices.instance.postMethod(connectionInfo.SERVER_URL + apiMethod.hubAddSensor , param: dict) { (status, response) in
             if(status == true){
                 
-                SystemAlert().basicActionAlert(withTitle: "", message: "", actions: [.okAlert]) { (alert) in
-     
+                SystemAlert().basicActionAlert(withTitle: "", message: "Sensor Add Successfully", actions: [.okAlert]) { (alert) in
+                    let nextVC =  self.getViewController(with: .powerUpHub, inStoryboard: .main) as! PowerUpHubVC
+                    self.navigationController?.pushViewController(nextVC, animated: true)
+                    
                 }
                 
             }
         }
     }
+
+    @IBAction func acn_NextBtn(_ sender: Any) {
+        
+        callApiForHubAddSensor()
+    }
+
 }
 
 extension ConnectToWifi: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        currentVC.dismiss(animated: true, completion: nil)
-    }
-    
-    private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        print("Naina Devi")
-        if let getImage = info[UIImagePickerController.InfoKey.originalImage.rawValue] as? UIImage {
-            self.imgVw.image = getImage
-            photoString = convertImageToBase64String(img: getImage)
-            
-        }else{
-            print("Something went wrong")
-        }
-        currentVC.dismiss(animated: true, completion: nil)
-    }
-    
+     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+           dismiss(animated: true, completion: nil)
+       }
+       
+       
+       func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+           if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+               imgVw.contentMode = .scaleAspectFit
+               imgVw.image = pickedImage
+                photoString = convertImageToBase64String(img: pickedImage)
+           }
+        
+           dismiss(animated: true, completion: nil)
+       }
+
     func convertImageToBase64String (img: UIImage) -> String {
         let imageData:NSData = img.jpegData(compressionQuality: 0.50)! as NSData //UIImagePNGRepresentation(img)
         let imgString = imageData.base64EncodedString(options: .init(rawValue: 0))

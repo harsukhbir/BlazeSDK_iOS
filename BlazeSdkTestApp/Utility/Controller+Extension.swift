@@ -31,6 +31,9 @@ enum StoryboardIdentifiers: String {
     case pairDeviceVC = "PairDeviceVC"
     case deviceInternalVC = "DeviceInternalVC"
     case changeAccessPointVC = "ChangeAccessPointVC"
+    case connectToWifi = "ConnectToWifi"
+    case installSensor = "InstallSensorVC"
+    case powerUpHub = "PowerUpHubVC"
 
 }
 

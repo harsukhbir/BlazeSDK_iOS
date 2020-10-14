@@ -117,5 +117,13 @@ class InstallSensorVC: UIViewController,UITableViewDelegate, UITableViewDataSour
     }
     
     
+    
+    @IBAction func acn_NextBtn(_ sender: Any) {
+        
+        let nextVC =  self.getViewController(with: .connectToWifi, inStoryboard: .main) as! ConnectToWifi
+        self.navigationController?.pushViewController(nextVC, animated: true)
+            }
+    
+    
 
 }

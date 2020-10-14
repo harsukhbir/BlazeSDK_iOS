@@ -35,22 +35,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0584CDD8-E6F9-4D64-8849-BB6B46081E24"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/HomeUltimateSetupVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "acn_nextBtn(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "61BF8F8B-FCAB-4DE5-9092-793D0EBE2F96"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -74,8 +58,8 @@
             filePath = "BlazeSdkTestApp/Controll/Webservices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "postMethod(_:param:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -100,7 +84,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "96ADB9ED-D672-4AD0-A084-A5D2A0525DE8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BlazeSdkTestApp/Controll/HomeUltimateSetupVC.swift"
@@ -115,134 +99,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E18D20C0-200A-42A5-9DD4-4FB274BA5BBE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A2A88CE4-9A1E-4F00-9ED5-C4034313B26D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "61F77C70-1390-4FF6-AA85-A0F9BEE84572"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F75872F9-182E-462E-A591-2DC15123390A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "convertImageToBase64String(img:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A107976D-7584-4912-B24C-F265CF439233"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "convertImageToBase64String(img:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4833DB77-1AB0-42A4-9297-5BC7540C3914"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "imagePickerControllerDidCancel(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D6AD6A17-1CC8-464B-A038-431C3977BDCC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "imagePickerControllerDidCancel(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C49446CA-3A87-4FF8-9984-698405B54774"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "camera()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "FB2E31AC-4832-4300-9A87-903286C15E0B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -250,8 +106,8 @@
             filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "photoLibrary()"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,8 +122,8 @@
             filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "imgAction()"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,8 +138,8 @@
             filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "showActionSheet(vc:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -298,10 +154,170 @@
             filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "showActionSheet(vc:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E8AEA96-AA66-45AA-B610-3A746890A005"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "callApiForHubAddSensor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF571DA4-3E10-4E32-B56E-8F70309C0DCD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "callApiForHubAddSensor()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF571DA4-3E10-4E32-B56E-8F70309C0DCD - 44ac6ecb4a7b0d0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlazeSdkTestApp.ConnectToWifi.callApiForHubAddSensor() -&gt; ()"
+                  moduleName = "BlazeSdkTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "FF571DA4-3E10-4E32-B56E-8F70309C0DCD - 2eb9980bbb114ceb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.AnyObject) -&gt; () in BlazeSdkTestApp.ConnectToWifi.callApiForHubAddSensor() -&gt; ()"
+                  moduleName = "BlazeSdkTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB7B127F-9BEE-4D1E-9DB1-8B94A87FF264"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "callApiForHubAddSensor()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB7B127F-9BEE-4D1E-9DB1-8B94A87FF264 - 2eb9980bbb114ceb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.AnyObject) -&gt; () in BlazeSdkTestApp.ConnectToWifi.callApiForHubAddSensor() -&gt; ()"
+                  moduleName = "BlazeSdkTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "CB7B127F-9BEE-4D1E-9DB1-8B94A87FF264 - 811309f0a00f0d1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BlazeSdkTestApp.SystemAlertType) -&gt; () in closure #1 (Swift.Bool, Swift.AnyObject) -&gt; () in BlazeSdkTestApp.ConnectToWifi.callApiForHubAddSensor() -&gt; ()"
+                  moduleName = "BlazeSdkTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/ConnectToWifi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B69424E1-8AB7-4DDA-B184-75F3243E9ACE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlazeSdkTestApp/Controll/HomeUltimateSetupVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "callApiForHubInstallation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B69424E1-8AB7-4DDA-B184-75F3243E9ACE - dce4c1541521ffba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.AnyObject) -&gt; () in BlazeSdkTestApp.HomeUltimateSetupVC.callApiForHubInstallation() -&gt; ()"
+                  moduleName = "BlazeSdkTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/HomeUltimateSetupVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "B69424E1-8AB7-4DDA-B184-75F3243E9ACE - 1a735f78c53f048"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BlazeSdkTestApp.SystemAlertType) -&gt; () in closure #1 (Swift.Bool, Swift.AnyObject) -&gt; () in BlazeSdkTestApp.HomeUltimateSetupVC.callApiForHubInstallation() -&gt; ()"
+                  moduleName = "BlazeSdkTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Untitled/Impinge_Projects/BlazeSDKiOS/BlazeSdkTestApp/Controll/HomeUltimateSetupVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

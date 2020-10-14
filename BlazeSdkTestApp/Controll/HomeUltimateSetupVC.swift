@@ -26,7 +26,7 @@ class HomeUltimateSetupVC: UIViewController {
     
     @IBAction func acn_nextBtn(_ sender: Any) {
         
-        callApiForHubInstallation()
+       callApiForHubInstallation()
     }
     
     
@@ -40,11 +40,13 @@ class HomeUltimateSetupVC: UIViewController {
             if(status == true){
                 
                 SystemAlert().basicActionAlert(withTitle: "", message: "Hub Installed Successfully", actions: [.okAlert]) { (alert) in
-     
+                    let nextVC =  self.getViewController(with: .installSensor, inStoryboard: .main) as! InstallSensorVC
+                     self.navigationController?.pushViewController(nextVC, animated: true)
                 }
                 
             }
         }
     }
+    
 
 }
