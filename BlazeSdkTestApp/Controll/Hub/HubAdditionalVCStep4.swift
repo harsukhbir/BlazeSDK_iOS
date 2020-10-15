@@ -21,15 +21,18 @@ class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
     
     @IBAction func clickOnAddHubBtn(_ sender: Any) {
         SystemAlert().showLoader()
-        BlazeSdkClass.shared.addHub(hubId: TestUtility().getAddingHubId(), hubName: hubNameTF.text ?? "Test Hub") { (Response) in
-            debugPrint(Response)
-            if((Response["status"] as! Bool) == true){
-                self.getHubDetails()
-            }else{
-                SystemAlert().removeLoader()
-            }
-            
-        }
+        //15 OCt 20020
+//        BlazeSdkClass.shared.addHub(hubId: TestUtility().getAddingHubId(), hubName: hubNameTF.text ?? "Test Hub") { (Response) in
+//            debugPrint(Response)
+//            if((Response["status"] as! Bool) == true){
+//                self.getHubDetails()
+//            }else{
+//                SystemAlert().removeLoader()
+//            }
+//
+//        }
+        
+        callApiForHubInstallation()
         
        
     }
@@ -60,4 +63,29 @@ class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
     }
     */
 
+    
+    func callApiForHubInstallation(){
+        
+        let dict = ["installerId": "iOS"] as [String : Any]
+        
+        // https://api.dev.datadrivencare.net/hubs/C44F33354375/installation
+        
+        Webservices.instance.postMethod(connectionInfo.SERVER_URL + hubNameTF.text! + apiMethod.hubInstallation , param: dict) { (status, response) in
+            if(status == true){
+                
+                SystemAlert().basicActionAlert(withTitle: "", message: "Hub Installed Successfully", actions: [.okAlert]) { (alert) in
+                     self.pushToController(with: .homeVC, inStoryboard: .main)
+                }
+                
+            }
+//            else{
+//                print("Get Response=>\(response)")
+//                SystemAlert().basicActionAlert(withTitle: "", message: "", actions: [.okAlert]) { (alert) in
+//                                   
+//                               }
+//            }
+        }
+    }
+    
+    
 }

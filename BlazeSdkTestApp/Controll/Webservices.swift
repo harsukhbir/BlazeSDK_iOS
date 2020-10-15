@@ -40,7 +40,7 @@ final class Webservices
             request.timeoutInterval = 60
             request.cachePolicy = .reloadIgnoringLocalCacheData
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            request.setValue("Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJYelM3Y0tka1VXRm9mWVZUR2pYM0ZIbVVNSVQ1cnpGd2k2TW5LQktmYnI0In0.eyJleHAiOjE2MDI2ODI2MjUsImlhdCI6MTYwMjY4MDgyNSwiYXV0aF90aW1lIjoxNjAyNjc2MDk2LCJqdGkiOiJiNDk3Yzk0Zi02OTYwLTQ0OWYtOTMyMy0wMjFkYjg1ZDgwMzEiLCJpc3MiOiJodHRwczovL2F1dGguZGV2LmRhdGFkcml2ZW5jYXJlLm5ldC9hdXRoL3JlYWxtcy9kZGMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYzVjMDhhOWEtNTBhYy00NGMyLTk5YTYtMmE4OWU0MjkzODE4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZGRjLXdlYiIsIm5vbmNlIjoiN2I1YTE2YmEtNGNmMC00NzM2LThkNjYtZDBlNGIwYjZlNWE2Iiwic2Vzc2lvbl9zdGF0ZSI6IjM3YmRiZDljLTRjNmYtNDRhOC1hNzdkLTM0Zjk2ZjNhZWJhOCIsImFjciI6IjAiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9hZG1pbi5kZXYuZGF0YWRyaXZlbmNhcmUubmV0IiwiaHR0cHM6Ly9kZXYuZGF0YWRyaXZlbmNhcmUubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwic3VwZXJBZG1pbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2FyZWVtIn0.gvkk3DAUu47Ao77sw5VIh1h8HrKHb2l4tyNYQYPgvKo6Pt7AMW4optOMzZ26UKGnIFYJ3Y9ex1tG5yjNKouGF8h9JrbpMvrus39WDC8izSDATMgZCwM0bHlu27lSRQAhpTHh_VnXuVDGwhteGq1M3AThxdpBKiY4QQKFocnlbPgV01qZysxR0TuFYxFYquBK_mwjdNvQyLssCcl4gqeBXAZOk9puNjO9cdsWBoPuZXlZ0D5Ijg1VEe4kAzWO8u-Uq3Wuocrr1ZZcQgMzzmYl_n_a2By9YWLlJ_0jWw1aX_jkGkp-khsA16Z6dYAc2GgVMRyYV9rin9exbCB1PAYzDQ", forHTTPHeaderField: "authorization")
+            request.setValue("Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJYelM3Y0tka1VXRm9mWVZUR2pYM0ZIbVVNSVQ1cnpGd2k2TW5LQktmYnI0In0.eyJleHAiOjE2MDI3Njg3NTMsImlhdCI6MTYwMjc2Njk1MywiYXV0aF90aW1lIjoxNjAyNzYwOTI4LCJqdGkiOiJiZGViYTEwMy04YTcxLTQxZmMtOGQ5NS04NDhmNzZmNTZjNGQiLCJpc3MiOiJodHRwczovL2F1dGguZGV2LmRhdGFkcml2ZW5jYXJlLm5ldC9hdXRoL3JlYWxtcy9kZGMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYzVjMDhhOWEtNTBhYy00NGMyLTk5YTYtMmE4OWU0MjkzODE4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZGRjLXdlYiIsIm5vbmNlIjoiYTA0YWIyYTEtNzI3MS00YjhjLTkyMzYtMTZjZTEwNWRmMzFkIiwic2Vzc2lvbl9zdGF0ZSI6ImMzZjRjZThmLTY4ZGQtNGU0YS1hZWYxLTk2NGE5ZmVlMDRmNyIsImFjciI6IjAiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9hZG1pbi5kZXYuZGF0YWRyaXZlbmNhcmUubmV0IiwiaHR0cHM6Ly9kZXYuZGF0YWRyaXZlbmNhcmUubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwic3VwZXJBZG1pbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2FyZWVtIn0.lWW9K1IuwuJBSHpRmipHdIb_RiPRr_El2hVvimVq9SMff5ppJUdCZux5A_fFFcZHUD8z1cCPR3W4heJWfXYQzPlcT5j7t_YdtprFkwIju1TfHGQ0NGGtAVDvrmuMSyIqvaaff9bfUPryViaowNIl_Vq5XtV0qTtuZZQ-DdNQLj7-8jW2h9dLiTZtzoDNzjbg0o1LqK2HsCKqtZ8s1pq2130vPO19qZxlMqKDRwYIsraTizMs8sVZpGRIW97mWneHX6c-8jP-VHkgHHcS9VDGUkZBaNN78UyzSo56xPaQ9MfjtsdR-uUsUriSxa86U2PnuhGwJtsxJ0zO0fRZp9O4eA", forHTTPHeaderField: "authorization")
         
             guard let httpBody = try? JSONSerialization.data(withJSONObject: param, options: []) else {
                 return
@@ -59,12 +59,13 @@ final class Webservices
                     
                     let json = try? JSONSerialization.jsonObject(with: data, options: [])
                     // response.
-                    print(response as Any)
+                    print("Api Response=>\(response as Any)")
                     if let response = response as? HTTPURLResponse , 200...299 ~= response.statusCode {
                        
-                        completion(true,json as AnyObject)
+                        completion(true,response as AnyObject)
                     } else {
-                        completion(true,json as AnyObject)
+                        
+                        completion(true,response as AnyObject)
                     }
                 } else {
                     DispatchQueue.main.async {

@@ -42,11 +42,16 @@ self.title = "Hub addition step 2"
                     }else{
                          SystemAlert().removeLoader()
                          // connect again and check background hub is connected or not
+                        //15 Oct 2020
+                         self.pushToController(with: .hubAdditionVCStep3, inStoryboard: .main)
                     }
                 }
             }else{
                 SystemAlert().removeLoader()
                 // connect again and check background hub is connected or not
+                //15 Oct 2020
+                self.pushToController(with: .hubAdditionVCStep3, inStoryboard: .main)
+
             }
         }
         

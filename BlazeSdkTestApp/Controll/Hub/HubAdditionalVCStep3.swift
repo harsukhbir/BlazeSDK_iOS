@@ -20,8 +20,9 @@ class HubAdditionalVCStep3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         hubStatusLable.text = "Current status : Offline"
-        nextButton.alpha = 0.5
-        nextButton.isUserInteractionEnabled = false
+        //15 Oct 2020
+//        nextButton.alpha = 0.5
+//        nextButton.isUserInteractionEnabled = false
         if(vcFrom == "change_access"){
             self.title = "Check hub status"
             self.disLbl.text = "Go to settings and  connect to your home Wi-Fi network and click on 'check hub status button'. If the Hub come's online then 'Home' button will be enabled. \nNote : If Hub LED blinks in BLUE, internet may not be available.If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given credentials. Then do change access point again. "

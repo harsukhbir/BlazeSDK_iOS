@@ -57,7 +57,25 @@ class DeviceListVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
                 nextVC.deviceTypeName = self.deviceTypeList[indexPath.row]
                 self.navigationController?.pushViewController(nextVC, animated: true)
             }else{
-                SystemAlert().basicNonActionAlert(withTitle: "", message: "Hub seems to be offline. You can not add devices", alert: .okAlert)
+                //15 OCtober 2020
+//                SystemAlert().basicNonActionAlert(withTitle: "", message: "Hub seems to be offline. You can not add devices", alert: .okAlert)
+                
+                let nextVC =  self.getViewController(with: .pairDeviceVCNew, inStoryboard: .main) as! PairDeviceVCNew
+                 
+                 switch indexPath.row {
+                     case 0:
+                         nextVC.catType = zigbeDeviceCatTypes().motionSensor
+                     case 1:
+                         nextVC.catType = zigbeDeviceCatTypes().doorSensor
+                     case 2:
+                         nextVC.catType = zigbeDeviceCatTypes().tempHumiditySensor
+                     case 3:
+                         nextVC.catType = zigbeDeviceCatTypes().sosButton
+                     default:
+                         nextVC.catType = zigbeDeviceCatTypes().motionSensor
+                 }
+                 nextVC.deviceTypeName = self.deviceTypeList[indexPath.row]
+                 self.navigationController?.pushViewController(nextVC, animated: true)
                 
             }
         }

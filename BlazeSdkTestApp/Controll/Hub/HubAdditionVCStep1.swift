@@ -29,6 +29,10 @@ class HubAdditionVCStep1: UIViewController, BlazeResponseManagerDelegate {
             if((Response["status"] as! Bool) == true){
                 self.pushToController(with: .hubAdditionVCStep2, inStoryboard: .main)
             }
+                //15Oct 2020
+            else{
+                 self.pushToController(with: .hubAdditionVCStep2, inStoryboard: .main)
+            }
         }
         
 //        SystemAlert().showLoader()

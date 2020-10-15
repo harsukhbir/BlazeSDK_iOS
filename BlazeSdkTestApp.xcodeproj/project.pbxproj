@@ -53,6 +53,7 @@
 		C77752BC252AFB5C00C1CC20 /* InstallSensorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77752BB252AFB5C00C1CC20 /* InstallSensorVC.swift */; };
 		C78D8EC025343BAE005CAFCC /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D8EBF25343BAE005CAFCC /* APICall.swift */; };
 		C78D8EC225344A99005CAFCC /* WifiPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D8EC125344A99005CAFCC /* WifiPasswordVC.swift */; };
+		C79F53E32538182D0091EBBD /* PairDeviceVCNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79F53E22538182D0091EBBD /* PairDeviceVCNew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +121,7 @@
 		C77752BB252AFB5C00C1CC20 /* InstallSensorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallSensorVC.swift; sourceTree = "<group>"; };
 		C78D8EBF25343BAE005CAFCC /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		C78D8EC125344A99005CAFCC /* WifiPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiPasswordVC.swift; sourceTree = "<group>"; };
+		C79F53E22538182D0091EBBD /* PairDeviceVCNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairDeviceVCNew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				211CEB2C24E129AA009D0C50 /* DeviceListVC.swift */,
 				21528C3924EB97FB0067390F /* DeviceInternalVC.swift */,
 				21528C3724EB96A80067390F /* PairDeviceVC.swift */,
+				C79F53E22538182D0091EBBD /* PairDeviceVCNew.swift */,
 			);
 			path = Devices;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				C764E58F252450D60007B3F7 /* InstallationofSensorVC.swift in Sources */,
 				211CEB4A24E29E2D009D0C50 /* Constants.swift in Sources */,
 				211CEB3924E180C8009D0C50 /* TestAppUtility.swift in Sources */,
+				C79F53E32538182D0091EBBD /* PairDeviceVCNew.swift in Sources */,
 				2163569124D570F900A033F3 /* IntialVC.swift in Sources */,
 				211CEB2B24E11683009D0C50 /* HomeVC.swift in Sources */,
 				211CEB3524E1456C009D0C50 /* HubListVC.swift in Sources */,

@@ -21,8 +21,9 @@ class PairDeviceVC: UIViewController,UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = deviceTypeName
-        addDeviceBtn.isEnabled = false
-        addDeviceBtn.alpha = 0.5
+        //15 Oct 2020
+//        addDeviceBtn.isEnabled = false
+//        addDeviceBtn.alpha = 0.5
 
         // Do any additional setup after loading the view.
     }
@@ -52,6 +53,14 @@ class PairDeviceVC: UIViewController,UITextFieldDelegate {
                 
                 SystemAlert().basicNonActionAlert(withTitle: "", message: "Device Added Successfully", alert: .doneAlert)
                 
+                for controller in self.navigationController!.viewControllers as Array {
+                    if controller.isKind(of: HomeVC.self) {
+                        self.navigationController?.popToViewController(controller, animated: true)
+                    }
+                    
+                }
+            }//15Ocxt 2020
+            else{
                 for controller in self.navigationController!.viewControllers as Array {
                     if controller.isKind(of: HomeVC.self) {
                         self.navigationController?.popToViewController(controller, animated: true)

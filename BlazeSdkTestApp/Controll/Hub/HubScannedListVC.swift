@@ -90,8 +90,12 @@ class HubScannedListVC: UIViewController,UITableViewDataSource,UITableViewDelega
     }
     
     @IBAction func clickOnRescanButton(_ sender: Any) {
-        SystemAlert().showLoader()
-        centralManager.scanForPeripherals(withServices: nil, options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
+        //15Oct 2020
+//        SystemAlert().showLoader()
+//        centralManager.scanForPeripherals(withServices: nil, options: [CBCentralManagerScanOptionAllowDuplicatesKey : true])
+//
+        
+        self.pushToController(with: .hubAdditionVCStep1, inStoryboard: .main)
     }
     //right is the first encountered string after left
    
