@@ -70,7 +70,7 @@ class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
         
         // https://api.dev.datadrivencare.net/hubs/C44F33354375/installation
         
-        Webservices.instance.postMethod(connectionInfo.SERVER_URL + hubNameTF.text! + apiMethod.hubInstallation , param: dict) { (status, response) in
+        Webservices.instance.postMethod(connectionInfo.SERVER_URL  + apiMethod.hubInstallation , param: dict) { (status, response) in
             if(status == true){
                 
                 SystemAlert().basicActionAlert(withTitle: "", message: "Hub Installed Successfully", actions: [.okAlert]) { (alert) in

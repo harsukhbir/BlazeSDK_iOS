@@ -44,8 +44,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
             endingLineNumber = "60"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -60,8 +60,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -76,8 +76,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -412,8 +412,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
             endingLineNumber = "72"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "callApiForHubInstallation()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "B2C74F63-E6D2-4DC5-8071-2D0862BAB968 - 1abdba8ca831ce78"
@@ -460,8 +460,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -476,8 +476,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
             endingLineNumber = "73"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "callApiForHubInstallation()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "D5694618-3D04-451A-961F-76BFB6FEA25B - 1abdba8ca831ce78"
@@ -524,8 +524,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "callApiForHubInstallation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -540,8 +540,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
             endingLineNumber = "76"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "callApiForHubInstallation()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "AECFDD31-18C3-4AD1-92CF-D749F5ED8404 - 12bd11e2fd39f3dd"
@@ -588,8 +588,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -604,8 +604,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
             endingLineNumber = "45"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -620,8 +620,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
             endingLineNumber = "49"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "postMethod(_:param:completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -636,8 +636,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
             endingLineNumber = "83"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "callApiForHubInstallation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
