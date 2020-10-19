@@ -12,6 +12,8 @@ import BlazeSdk
 class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
     
     @IBOutlet weak var hubNameTF: UITextField!
+    var itemListArr:[[String:String]] = []
+    var itemDict:[String:String] = [:]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +22,12 @@ class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
     }
     
     @IBAction func clickOnAddHubBtn(_ sender: Any) {
+        if (hubNameTF.text?.isEmptyOrWhitespace())! {
+            SystemAlert().basicActionAlert(withTitle: "", message: "Please enter the hub name", actions: [.okAlert]) { (alert) in
+            }
+            return
+        }
+        
         SystemAlert().showLoader()
         //15 OCt 20020
 //        BlazeSdkClass.shared.addHub(hubId: TestUtility().getAddingHubId(), hubName: hubNameTF.text ?? "Test Hub") { (Response) in
@@ -66,7 +74,7 @@ class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
     
     func callApiForHubInstallation(){
         
-        let dict = ["installerId": "iOS"] as [String : Any]
+        let dict = ["installerId": hubNameTF.text!] as [String : Any]
         
         // https://api.dev.datadrivencare.net/hubs/C44F33354375/installation
         
@@ -74,7 +82,15 @@ class HubAdditionalVCStep4: UIViewController,UITextFieldDelegate{
             if(status == true){
                 
                 SystemAlert().basicActionAlert(withTitle: "", message: "Hub Installed Successfully", actions: [.okAlert]) { (alert) in
-                     self.pushToController(with: .homeVC, inStoryboard: .main)
+                    
+                    self.itemDict = ["itemID": "C44F33354375","itemName": self.hubNameTF.text!]
+                    let userDefaults = UserDefaults.standard
+                    self.itemListArr = userDefaults.object(forKey: "hubListArray") as? [[String : String]] ?? []
+                    self.itemListArr.append(self.itemDict)
+                    userDefaults.set(self.itemListArr, forKey: "hubListArray")
+                    
+                    self.pushToController(with: .homeVC, inStoryboard: .main)
+
                 }
                 
             }

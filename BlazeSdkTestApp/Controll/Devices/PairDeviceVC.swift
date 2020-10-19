@@ -16,8 +16,8 @@ class PairDeviceVC: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var pairDevicebtn: UIButton!
     @IBOutlet weak var addDeviceBtn: UIButton!
     var catType: String!
-    var deviceTypeName: String!
-    
+    var deviceTypeName: String?
+    var deviceModelName:String?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = deviceTypeName

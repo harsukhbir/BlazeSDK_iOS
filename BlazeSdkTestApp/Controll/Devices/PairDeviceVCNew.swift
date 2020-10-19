@@ -20,7 +20,8 @@ class PairDeviceVCNew: UIViewController,UITextFieldDelegate {
         @IBOutlet weak var addDeviceBtn: UIButton!
         var catType: String!
         var deviceTypeName: String!
-        
+        var deviceModelName: String!
+        var deviceLocationName: String!
         @IBOutlet weak var imgVw: UIImageView!
     
     let imagePicker = UIImagePickerController()
@@ -141,11 +142,11 @@ class PairDeviceVCNew: UIViewController,UITextFieldDelegate {
     
     func callApiForHubAddSensor(){
         
-        let dict = ["installationPhoto": photoString,
-                    "location":"bathroom",
-                    "model": "doorv1",
+      let dict = ["installationPhoto": photoString,
+                    "location": deviceLocationName ?? "",
+                    "model": deviceModelName ?? "",
                     "pairingId": "string",
-                    "type": "door"] as [String : Any]
+                    "type": deviceTypeName ?? ""] as [String : Any]
     
         Webservices.instance.postMethod(connectionInfo.SERVER_URL + apiMethod.hubAddSensor , param: dict) { (status, response) in
             if(status == true){
@@ -163,7 +164,6 @@ extension PairDeviceVCNew: UIImagePickerControllerDelegate, UINavigationControll
             func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
                 dismiss(animated: true, completion: nil)
             }
-            
             
             func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
                 if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {

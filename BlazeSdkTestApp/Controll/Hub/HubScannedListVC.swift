@@ -16,16 +16,24 @@ class HubScannedListVC: UIViewController,UITableViewDataSource,UITableViewDelega
     private var peripheral: CBPeripheral!
     
     @IBOutlet weak var scannedTableView: UITableView!
+    @IBOutlet weak var lblTotalHubs: UILabel!
     
     var hubList : [String] = []
     let cellReuseIdentifier = "cell"
-    
+    var itemListArr:[[String:String]] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scannedTableView.register(UINib.init(nibName: "hubListCell", bundle: nil), forCellReuseIdentifier: "hubListCell")
+        scannedTableView.tableFooterView = UIView()
         centralManager = CBCentralManager(delegate: self, queue: nil)
         scannedTableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
-
-        SystemAlert().showLoader()
+        
+        //SystemAlert().showLoader()
+        let userDefaults = UserDefaults.standard
+        self.itemListArr = userDefaults.object(forKey: "hubListArray") as? [[String : String]] ?? []
+        self.lblTotalHubs.text = "\(self.itemListArr.count) hubs available"
         // Do any additional setup after loading the view.
     }
     override func didMove(toParent parent: UIViewController?) {
@@ -37,14 +45,17 @@ class HubScannedListVC: UIViewController,UITableViewDataSource,UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return hubList.count
+        //return hubList.count
+        return itemListArr.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier)!
-        cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellReuseIdentifier)
-        
-        cell.textLabel?.text = hubList[indexPath.row]
+        let cell = self.scannedTableView.dequeueReusableCell(withIdentifier: "hubListCell", for: indexPath) as! hubListCell
+        cell.selectionStyle = .none
+        let dataDict = itemListArr[indexPath.row]
+        cell.titleName.text! = dataDict["itemName"] ?? ""
+        cell.itemID.text! = dataDict["itemID"] ?? ""
+        //cell.textLabel?.text = hubList[indexPath.row]
         
         return cell
     }
@@ -71,7 +82,6 @@ class HubScannedListVC: UIViewController,UITableViewDataSource,UITableViewDelega
         
         let pheripheralName = peripheral.name ?? ""
         
-        
         if (pheripheralName.contains("Home-Ultimate(")) {
             if(!hubList.contains(pheripheralName)){
                 hubList.append(pheripheralName)
@@ -86,7 +96,6 @@ class HubScannedListVC: UIViewController,UITableViewDataSource,UITableViewDelega
             self.scannedTableView.reloadData()
             SystemAlert().removeLoader()
         }
-        
     }
     
     @IBAction func clickOnRescanButton(_ sender: Any) {
@@ -97,17 +106,6 @@ class HubScannedListVC: UIViewController,UITableViewDataSource,UITableViewDelega
         
         self.pushToController(with: .hubAdditionVCStep1, inStoryboard: .main)
     }
-    //right is the first encountered string after left
-   
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+  
     
 }

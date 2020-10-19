@@ -39,6 +39,9 @@
 		216C543524E59C29003AFD5F /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C543424E59C29003AFD5F /* SettingsVC.swift */; };
 		216C543A24E65745003AFD5F /* HubScannedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C543924E65745003AFD5F /* HubScannedListVC.swift */; };
 		21732BF024E3D30E00296FCE /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21732BEF24E3D30E00296FCE /* ChangePasswordVC.swift */; };
+		29E6D89B253D6C0100C46786 /* hubListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6D899253D6C0100C46786 /* hubListCell.swift */; };
+		29E6D89C253D6C0100C46786 /* hubListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E6D89A253D6C0100C46786 /* hubListCell.xib */; };
+		29E6D8A0253D771100C46786 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6D89F253D771100C46786 /* Button.swift */; };
 		C74A58AA25232B3C00AD77CB /* BlazeSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */; };
 		C74A58AB25232B3C00AD77CB /* BlazeSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2155A6D124F7D6A400AB6E0E /* BlazeSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C75C0E3725342D03008B3C89 /* HubIdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C0E3625342D03008B3C89 /* HubIdVC.swift */; };
@@ -106,6 +109,9 @@
 		216C543424E59C29003AFD5F /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		216C543924E65745003AFD5F /* HubScannedListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubScannedListVC.swift; sourceTree = "<group>"; };
 		21732BEF24E3D30E00296FCE /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		29E6D899253D6C0100C46786 /* hubListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubListCell.swift; sourceTree = "<group>"; };
+		29E6D89A253D6C0100C46786 /* hubListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = hubListCell.xib; sourceTree = "<group>"; };
+		29E6D89F253D771100C46786 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		4344AB8A3477615789F7619C /* Pods_BlazeSdkTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlazeSdkTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		518596B5A5230EC8EF5E19D9 /* Pods-BlazeSdkTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlazeSdkTestApp.debug.xcconfig"; path = "Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		99266C86073F725C84703AB0 /* Pods-BlazeSdkTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlazeSdkTestApp.release.xcconfig"; path = "Target Support Files/Pods-BlazeSdkTestApp/Pods-BlazeSdkTestApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +149,8 @@
 			children = (
 				210F02A424F3BB410029E5E5 /* ListCell.swift */,
 				210F02A524F3BB410029E5E5 /* ListCell.xib */,
+				29E6D899253D6C0100C46786 /* hubListCell.swift */,
+				29E6D89A253D6C0100C46786 /* hubListCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 				214901FD24DD8DA400DE5569 /* SystemAlert.swift */,
 				211CEB3824E180C8009D0C50 /* TestAppUtility.swift */,
 				211CEB4924E29E2D009D0C50 /* Constants.swift */,
+				29E6D89F253D771100C46786 /* Button.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -302,8 +311,8 @@
 				2163568524D570F900A033F3 /* Sources */,
 				2163568624D570F900A033F3 /* Frameworks */,
 				2163568724D570F900A033F3 /* Resources */,
-				E4266B499D30FF9C761999BB /* [CP] Embed Pods Frameworks */,
 				C74A58AC25232B3C00AD77CB /* Embed Frameworks */,
+				FF724EC86B6AA5099844BC15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +364,7 @@
 				2163569924D570FA00A033F3 /* LaunchScreen.storyboard in Resources */,
 				210F02A724F3BB410029E5E5 /* ListCell.xib in Resources */,
 				2163569624D570FA00A033F3 /* Assets.xcassets in Resources */,
+				29E6D89C253D6C0100C46786 /* hubListCell.xib in Resources */,
 				2163569424D570F900A033F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +394,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E4266B499D30FF9C761999BB /* [CP] Embed Pods Frameworks */ = {
+		FF724EC86B6AA5099844BC15 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -422,6 +432,7 @@
 				211CEB3124E141F0009D0C50 /* HubAdditionVCStep2.swift in Sources */,
 				216C543324E54B33003AFD5F /* HubAdditionalVCStep3.swift in Sources */,
 				C78D8EC025343BAE005CAFCC /* APICall.swift in Sources */,
+				29E6D8A0253D771100C46786 /* Button.swift in Sources */,
 				211CEB2D24E129AA009D0C50 /* DeviceListVC.swift in Sources */,
 				216C543A24E65745003AFD5F /* HubScannedListVC.swift in Sources */,
 				C764E591252450F10007B3F7 /* PairingSensorVC.swift in Sources */,
@@ -439,6 +450,7 @@
 				2149020024DD8DA400DE5569 /* Controller+Extension.swift in Sources */,
 				C76FB1EC25236273006BA493 /* PowerUpHubVC.swift in Sources */,
 				2163568D24D570F900A033F3 /* AppDelegate.swift in Sources */,
+				29E6D89B253D6C0100C46786 /* hubListCell.swift in Sources */,
 				2163568F24D570F900A033F3 /* SceneDelegate.swift in Sources */,
 				211CEB6B24E2D7E1009D0C50 /* ForgotPassWordVC.swift in Sources */,
 				216C541C24E5099C003AFD5F /* LocationServices.swift in Sources */,

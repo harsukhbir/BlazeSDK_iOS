@@ -6,7 +6,7 @@ target 'BlazeSdkTestApp' do
   use_frameworks!
 
 
- pod 'TPKeyboardAvoiding', '~> 1.3' #scrollview for avoiding keyboard
+pod 'TPKeyboardAvoiding', '~> 1.3' #scrollview for avoiding keyboard
 pod 'NVActivityIndicatorView'
 pod 'Alamofire'
 pod 'SwiftyJSON'

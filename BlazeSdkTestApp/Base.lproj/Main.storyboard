@@ -947,9 +947,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EVl-iP-2ta">
-                                <rect key="frame" x="0.0" y="88" width="414" height="684"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nC9-k1-pHA">
+                                <rect key="frame" x="8" y="96" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EVl-iP-2ta">
+                                <rect key="frame" x="0.0" y="125" width="414" height="647"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="auT-YS-8pc" id="zS5-U9-tyk"/>
                                     <outlet property="delegate" destination="auT-YS-8pc" id="QeY-3e-pQg"/>
@@ -967,21 +973,25 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0Bt-p7-dMr" firstAttribute="bottom" secondItem="Jaf-tG-aa9" secondAttribute="bottom" constant="30" id="52a-BR-2Df"/>
                             <constraint firstItem="EVl-iP-2ta" firstAttribute="leading" secondItem="0Bt-p7-dMr" secondAttribute="leading" id="97H-mf-WEc"/>
                             <constraint firstItem="Jaf-tG-aa9" firstAttribute="height" secondItem="KVr-Fu-eKD" secondAttribute="height" multiplier="0.0669643" id="AYI-uY-4BK"/>
-                            <constraint firstItem="EVl-iP-2ta" firstAttribute="top" secondItem="0Bt-p7-dMr" secondAttribute="top" id="G1G-w9-oPC"/>
+                            <constraint firstItem="0Bt-p7-dMr" firstAttribute="trailing" secondItem="nC9-k1-pHA" secondAttribute="trailing" constant="8" id="Gdk-yA-Bq6"/>
                             <constraint firstItem="Jaf-tG-aa9" firstAttribute="top" secondItem="EVl-iP-2ta" secondAttribute="bottom" id="IU9-Qh-Br2"/>
                             <constraint firstItem="0Bt-p7-dMr" firstAttribute="trailing" secondItem="EVl-iP-2ta" secondAttribute="trailing" id="KNo-hq-YTT"/>
+                            <constraint firstItem="EVl-iP-2ta" firstAttribute="top" secondItem="nC9-k1-pHA" secondAttribute="bottom" constant="8" id="bS3-9l-9cW"/>
+                            <constraint firstItem="nC9-k1-pHA" firstAttribute="top" secondItem="0Bt-p7-dMr" secondAttribute="top" constant="8" id="mCe-VG-Ets"/>
                             <constraint firstItem="Jaf-tG-aa9" firstAttribute="leading" secondItem="0Bt-p7-dMr" secondAttribute="leading" constant="30" id="o6i-DV-fqX"/>
                             <constraint firstItem="0Bt-p7-dMr" firstAttribute="trailing" secondItem="Jaf-tG-aa9" secondAttribute="trailing" constant="30" id="wnc-Gv-6li"/>
+                            <constraint firstItem="nC9-k1-pHA" firstAttribute="leading" secondItem="0Bt-p7-dMr" secondAttribute="leading" constant="8" id="yYq-pO-9hn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0Bt-p7-dMr"/>
                     </view>
                     <navigationItem key="navigationItem" title="Scanned list" id="0PW-Vj-FCk"/>
                     <connections>
+                        <outlet property="lblTotalHubs" destination="nC9-k1-pHA" id="gTb-nU-bER"/>
                         <outlet property="scannedTableView" destination="EVl-iP-2ta" id="Qbh-NQ-bUs"/>
                     </connections>
                 </viewController>

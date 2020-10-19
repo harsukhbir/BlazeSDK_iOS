@@ -140,6 +140,23 @@ extension UIViewController {
    }
     
 }
-
+extension String
+{
+    func replace(string:String, replacement:String) -> String {
+        return self.replacingOccurrences(of:string, with: replacement, options: String.CompareOptions.literal, range: nil)
+    }
+    
+    func removeWhitespace() -> String {
+        return self.replace(string: " ", replacement: "")
+    }
+    func isEmptyOrWhitespace() -> Bool {
+        
+        if(self.isEmpty) {
+            return true
+        }
+        
+        return self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+}
 
 
