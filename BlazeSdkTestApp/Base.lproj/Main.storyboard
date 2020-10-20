@@ -462,21 +462,21 @@
                                     <fragment content="Power up the device and ensure the LED indicator is solid ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="RED">
                                         <attributes>
                                             <color key="NSColor" red="0.83702939750000005" green="0.0004596951185" blue="0.00063620432050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" color">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -499,35 +499,35 @@
                                     <fragment content="If its ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="solid blue">
                                         <attributes>
                                             <color key="NSColor" red="0.00030508878990000003" green="0.0" blue="0.96170836689999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=", or ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="blinking red">
                                         <attributes>
                                             <color key="NSColor" red="0.8053171039" green="0.0" blue="0.0022311068610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" press and hold the reset button for 8 seconds">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" metaFont="label" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -840,7 +840,7 @@
                                     <constraint firstAttribute="height" constant="40" id="XVG-vT-VkR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="hrN-Tp-xzc" id="I7s-np-LLG"/>
                                 </connections>
@@ -857,7 +857,7 @@
                                     <constraint firstAttribute="height" constant="40" id="1Jy-Td-gUn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="hrN-Tp-xzc" id="9t7-en-ukM"/>
                                 </connections>
@@ -880,7 +880,7 @@
                                     <constraint firstAttribute="height" constant="40" id="Rwk-dE-maT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="hrN-Tp-xzc" id="g1B-FN-Y4K"/>
                                 </connections>
@@ -1016,7 +1016,7 @@
                                             <constraint firstAttribute="height" constant="40" id="EuY-68-gON"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                         <connections>
                                             <outlet property="delegate" destination="tZM-us-UyI" id="IeA-Z1-qp7"/>
                                         </connections>
@@ -1033,7 +1033,7 @@
                                             <constraint firstAttribute="height" constant="40" id="yl7-Qf-IkI"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                         <connections>
                                             <outlet property="delegate" destination="tZM-us-UyI" id="WMX-WL-GKO"/>
                                         </connections>
@@ -1438,7 +1438,7 @@
                                     <constraint firstAttribute="height" constant="40" id="cg3-Sd-CQb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="044-mT-h6E" id="DsA-36-TqG"/>
                                 </connections>
@@ -1636,7 +1636,7 @@
                                     <constraint firstAttribute="height" constant="40" id="3YC-I6-8Sh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="Ma0-60-BNo" id="0nh-g9-m4X"/>
                                 </connections>
@@ -1653,7 +1653,7 @@
                                     <constraint firstAttribute="height" constant="40" id="80C-Qa-hhs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="Ma0-60-BNo" id="7KJ-Zp-hDm"/>
                                 </connections>
@@ -1840,7 +1840,7 @@ If Hub LED blinks RED, Hub can not connect to the Preferred Wi-Fi with given cre
                                     <constraint firstAttribute="height" constant="40" id="f8q-bo-QJ6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <outlet property="delegate" destination="zSV-Qd-gcY" id="llP-6w-sxB"/>
                                 </connections>

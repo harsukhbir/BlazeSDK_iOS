@@ -25,7 +25,7 @@ class PairDeviceVCNew: UIViewController,UITextFieldDelegate {
         @IBOutlet weak var imgVw: UIImageView!
     
     let imagePicker = UIImagePickerController()
-       var photoString = ""
+    var photoString:String?
         
         
         override func viewDidLoad() {
@@ -137,12 +137,18 @@ class PairDeviceVCNew: UIViewController,UITextFieldDelegate {
     }
         
         @IBAction func acn_FinishBtn(_ sender: Any) {
+            if photoString == nil{
+                 SystemAlert().basicActionAlert(withTitle: "", message: "Please take a photo", actions: [.okAlert]) { (alert) in
+                }
+                return
+            }
+            SystemAlert().showLoader()
             callApiForHubAddSensor()
         }
     
     func callApiForHubAddSensor(){
         
-      let dict = ["installationPhoto": photoString,
+        let dict = ["installationPhoto": photoString ?? "",
                     "location": deviceLocationName ?? "",
                     "model": deviceModelName ?? "",
                     "pairingId": "string",
@@ -150,7 +156,9 @@ class PairDeviceVCNew: UIViewController,UITextFieldDelegate {
     
         Webservices.instance.postMethod(connectionInfo.SERVER_URL + apiMethod.hubAddSensor , param: dict) { (status, response) in
             if(status == true){
-                
+                DispatchQueue.main.async {
+                    SystemAlert().removeLoader()
+                }
                 SystemAlert().basicActionAlert(withTitle: "", message: "Sensor Added Successfully", actions: [.okAlert]) { (alert) in
 //                    self.pushToController(with: .hubScannedListVC, inStoryboard: .main)
                     self.pushToController(with: .homeVC, inStoryboard: .main)

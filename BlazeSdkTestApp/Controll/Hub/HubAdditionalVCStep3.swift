@@ -35,7 +35,7 @@ class HubAdditionalVCStep3: UIViewController {
     }
     
     @IBAction func clickOnCheckHubStatus(_ sender: Any) {
-         SystemAlert().showLoader()
+        SystemAlert().showLoader()
         BlazeSdkClass.shared.checkHubStatus(hubId: TestUtility().getAddingHubId()) { (status) in
             debugPrint(status)
             SystemAlert().removeLoader()
@@ -45,7 +45,6 @@ class HubAdditionalVCStep3: UIViewController {
                 self.nextButton.isUserInteractionEnabled = true
             }
         }
-        
     }
     @IBAction func clickOnNextButton(_ sender: Any) {
         if(vcFrom == "change_access"){

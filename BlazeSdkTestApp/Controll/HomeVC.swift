@@ -60,8 +60,6 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
                     self.selectedhubId.text = "No hub selected"
                      SystemAlert().removeLoader()
                 }
-               
-              
             }else{
                 SystemAlert().removeLoader()
             }
